@@ -44,3 +44,33 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  verify:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the live feed, page, cover and audio
+        run: |
+          sleep 20
+          base="https://mylacc.github.io/podcast-picks"
+          curl -fsS "$base/feed.xml" -o feed.xml
+          curl -fsS "$base/" -o index.html && grep -q "FI Podcast Picks" index.html
+          curl -fsSI "$base/cover.png" | grep -i "content-type: image/png"
+          python3 - <<'PY'
+          import urllib.request, xml.etree.ElementTree as ET
+          ch = ET.parse("feed.xml").getroot().find("channel")
+          items = ch.findall("item")
+          print("live feed items:", len(items))
+          bad = 0
+          for it in items:
+              url = it.find("enclosure").get("url")
+              req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "podcast-picks-verify/1.0"})
+              try:
+                  with urllib.request.urlopen(req, timeout=30) as r:
+                      print(r.status, r.headers.get("Content-Type"), it.findtext("title"))
+              except Exception as e:
+                  bad += 1
+                  print("::warning::audio check failed:", it.findtext("title"), e)
+          assert items, "live feed has no items"
+          print("audio failures:", bad)
+          PY
