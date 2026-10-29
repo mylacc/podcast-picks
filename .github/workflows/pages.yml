@@ -49,7 +49,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Check the live feed, page, cover, audio and show art
+      - name: Check the live feed, page, cover, audio, show art and source links
         run: |
           sleep 20
           base="https://mylacc.github.io/podcast-picks"
@@ -57,12 +57,17 @@ jobs:
           curl -fsS "$base/" -o index.html && grep -q "FI Podcast Picks" index.html
           curl -fsSI "$base/cover.png" | grep -i "content-type: image/png"
           python3 - <<'PY'
-          import urllib.request, xml.etree.ElementTree as ET
+          import re, urllib.request, xml.etree.ElementTree as ET
           ch = ET.parse("feed.xml").getroot().find("channel")
           items = ch.findall("item")
           print("live feed items:", len(items))
           bad = 0
           for it in items:
+              rich = it.findtext("{http://purl.org/rss/1.0/modules/content/}encoded") or ""
+              if "Original episode" not in rich or not (it.findtext("link") or "").startswith("https://"):
+                  bad += 1
+                  print("::warning::missing source links:", it.findtext("title"))
+              print("links:", len(re.findall(r'href="https://', rich)), it.findtext("title"))
               art = it.find("{http://www.itunes.com/dtds/podcast-1.0.dtd}image")
               checks = [("audio", it.find("enclosure").get("url"))]
               if art is not None:

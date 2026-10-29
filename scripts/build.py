@@ -35,6 +35,7 @@ DESCRIPTION = (
 UA = "podcast-picks/1.0 (+" + REPO_URL + ")"
 ITUNES = "http://www.itunes.com/dtds/podcast-1.0.dtd"
 ATOM = "http://www.w3.org/2005/Atom"
+CONTENT = "http://purl.org/rss/1.0/modules/content/"
 # Picks go into the feed at 6:45am New York time on the day they were picked.
 PICK_HOUR_UTC_OFFSET = -4  # EDT; good enough for ordering, not shown to anyone
 PICK_HOUR = 6
@@ -103,6 +104,8 @@ def feed_items(feed_url):
             tag = ch.find("{%s}image" % ITUNES)
             art = (tag.get("href") if tag is not None else "") or (ch.findtext("image/url") or "")
         art = art.strip() if art.strip().startswith("https://") else ""
+        home = ((ch.findtext("link") if ch is not None else "") or "").strip()
+        home = home if home.startswith("https://") else ""
         items = []
         for it in root.iter("item"):
             enc = it.find("enclosure")
@@ -113,6 +116,7 @@ def feed_items(feed_url):
                 "pubDate": parse_date(it.findtext("pubDate") or ""),
                 "duration": (it.findtext("{%s}duration" % ITUNES) or "").strip(),
                 "show_image": art,
+                "show_link": home,
                 "enclosure": None if enc is None else {
                     "url": enc.get("url"),
                     "type": enc.get("type") or "audio/mpeg",
@@ -198,9 +202,21 @@ def ep_link(p):
     return (r["link"] if r and r["link"].startswith("https://") else "") or p["episode_url"]
 
 
+def source_links(p):
+    """Links back to the original episode and show, all taken from the show's own feed."""
+    r = p.get("resolved") or {}
+    links = [("Original episode", ep_link(p))]
+    if r.get("show_link"):
+        links.append(("%s website" % p["show"], r["show_link"]))
+    if r.get("feed_url"):
+        links.append(("%s feed (subscribe)" % p["show"], r["feed_url"]))
+    return links
+
+
 def build_feed(picks):
     ET.register_namespace("itunes", ITUNES)
     ET.register_namespace("atom", ATOM)
+    ET.register_namespace("content", CONTENT)
     rss = ET.Element("rss", {"version": "2.0"})
     ch = ET.SubElement(rss, "channel")
     ET.SubElement(ch, "title").text = TITLE
@@ -230,8 +246,14 @@ def build_feed(picks):
         ET.SubElement(it, "pubDate").text = email.utils.format_datetime(pick_time(p))
         published = fmt_day(p["published"])
         desc = "%s, published %s. %s%s" % (p["show"], published, "Timely, listen soon. " if p.get("timely") else "", p["why"])
-        ET.SubElement(it, "description").text = desc
-        ET.SubElement(it, "{%s}summary" % ITUNES).text = desc
+        links = source_links(p)
+        plain = desc + "\n\n" + "\n".join("%s: %s" % (label, url) for label, url in links)
+        rich = "<p>%s</p>\n<p>%s</p>" % (
+            html.escape(desc),
+            " &middot; ".join('<a href="%s">%s</a>' % (html.escape(url, quote=True), html.escape(label)) for label, url in links))
+        ET.SubElement(it, "description").text = plain
+        ET.SubElement(it, "{%s}encoded" % CONTENT).text = rich
+        ET.SubElement(it, "{%s}summary" % ITUNES).text = plain
         enc = r["enclosure"]
         ET.SubElement(it, "enclosure", {"url": enc["url"], "type": enc["type"], "length": str(enc["length"] or 0)})
         if r.get("duration"):
@@ -255,7 +277,10 @@ def build_page(picks):
             if p.get("timely"):
                 tags.append('<span class="tag timely">Timely</span>')
             r = p.get("resolved")
-            audio = ('<a href="%s">Audio</a>' % e(r["enclosure"]["url"], quote=True)) if r else ""
+            audio = " &middot; ".join(
+                ['<a href="%s">%s</a>' % (e(url, quote=True), "Show feed" if "feed" in label else "Show website")
+                 for label, url in source_links(p)[1:]]
+                + (['<a href="%s">Audio</a>' % e(r["enclosure"]["url"], quote=True)] if r else []))
             art = r.get("show_image") if r else ""
             img = ('<img class="art" src="%s" alt="%s cover" width="64" height="64" loading="lazy">'
                    % (e(art, quote=True), e(p["show"], quote=True))) if art else '<div class="art"></div>'
