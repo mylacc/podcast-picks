@@ -16,6 +16,7 @@ import html
 import json
 import os
 import re
+import shutil
 import sys
 import urllib.parse
 import urllib.request
@@ -23,6 +24,7 @@ import xml.etree.ElementTree as ET
 
 SITE_URL = "https://mylacc.github.io/podcast-picks/"
 FEED_URL = SITE_URL + "feed.xml"
+COVER_URL = SITE_URL + "cover.png"
 REPO_URL = "https://github.com/mylacc/podcast-picks"
 TITLE = "FI Podcast Picks"
 DESCRIPTION = (
@@ -198,6 +200,11 @@ def build_feed(picks):
     ET.SubElement(ch, "link").text = SITE_URL
     ET.SubElement(ch, "description").text = DESCRIPTION
     ET.SubElement(ch, "language").text = "en-us"
+    img = ET.SubElement(ch, "image")
+    ET.SubElement(img, "url").text = COVER_URL
+    ET.SubElement(img, "title").text = TITLE
+    ET.SubElement(img, "link").text = SITE_URL
+    ET.SubElement(ch, "{%s}image" % ITUNES, {"href": COVER_URL})
     ET.SubElement(ch, "{%s}link" % ATOM, {"href": FEED_URL, "rel": "self", "type": "application/rss+xml"})
     ET.SubElement(ch, "lastBuildDate").text = email.utils.format_datetime(dt.datetime.now(dt.timezone.utc))
     ET.SubElement(ch, "{%s}author" % ITUNES).text = TITLE
@@ -274,6 +281,7 @@ def main():
     ET.fromstring(feed)  # must be well-formed
     with open(os.path.join(args.out, "feed.xml"), "w", encoding="utf-8") as f:
         f.write(feed)
+    shutil.copyfile(os.path.join(root, "assets", "cover.png"), os.path.join(args.out, "cover.png"))
     with open(os.path.join(args.out, "index.html"), "w", encoding="utf-8") as f:
         f.write(build_page(picks))
     with open(os.path.join(args.out, "resolved.json"), "w", encoding="utf-8") as f:

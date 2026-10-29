@@ -5,6 +5,7 @@ on:
     paths:
       - picks.json
       - scripts/**
+      - assets/**
       - .github/workflows/pages.yml
   workflow_dispatch:
   schedule:

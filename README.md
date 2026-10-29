@@ -4,6 +4,7 @@ A few hand-picked podcast episodes a day on financial independence, retirement a
 
 - **Page:** https://mylacc.github.io/podcast-picks/
 - **Podcast feed:** https://mylacc.github.io/podcast-picks/feed.xml
+- **Cover art:** `assets/cover.png` (3000x3000), drawn by `scripts/cover.py`
 
 Add the feed address to any podcast app (AntennaPod: Add podcast, then "Add podcast by RSS address"). Each episode plays from the show's own audio file; nothing is re-hosted here.
 
