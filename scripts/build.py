@@ -97,6 +97,12 @@ def feed_items(feed_url):
     if feed_url not in _feed_cache:
         with fetch(feed_url, timeout=60) as r:
             root = ET.fromstring(r.read())
+        ch = root.find("channel")
+        art = ""
+        if ch is not None:
+            tag = ch.find("{%s}image" % ITUNES)
+            art = (tag.get("href") if tag is not None else "") or (ch.findtext("image/url") or "")
+        art = art.strip() if art.strip().startswith("https://") else ""
         items = []
         for it in root.iter("item"):
             enc = it.find("enclosure")
@@ -106,6 +112,7 @@ def feed_items(feed_url):
                 "guid": (it.findtext("guid") or "").strip(),
                 "pubDate": parse_date(it.findtext("pubDate") or ""),
                 "duration": (it.findtext("{%s}duration" % ITUNES) or "").strip(),
+                "show_image": art,
                 "enclosure": None if enc is None else {
                     "url": enc.get("url"),
                     "type": enc.get("type") or "audio/mpeg",
@@ -156,7 +163,7 @@ def resolve(picks, offline):
             if not ok:
                 warn("%s / %s: audio check failed (%s)" % (p["show"], ep["title"], detail))
             p["resolved"] = {**ep, "feed_url": feed_url, "found_via": how, "audio_check": detail, "audio_ok": ok}
-            log("OK  %s | %s | %s | %s" % (p["show"], ep["title"], ep["enclosure"]["url"], detail))
+            log("OK  %s | %s | %s | %s | art %s" % (p["show"], ep["title"], ep["enclosure"]["url"], detail, ep["show_image"] or "none"))
         except Exception as e:  # noqa: BLE001
             warn("%s / %s: %s" % (p["show"], p["title"], e))
 
@@ -229,6 +236,8 @@ def build_feed(picks):
         ET.SubElement(it, "enclosure", {"url": enc["url"], "type": enc["type"], "length": str(enc["length"] or 0)})
         if r.get("duration"):
             ET.SubElement(it, "{%s}duration" % ITUNES).text = r["duration"]
+        if r.get("show_image"):
+            ET.SubElement(it, "{%s}image" % ITUNES, {"href": r["show_image"]})
     ET.indent(rss, "  ")
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(rss, encoding="unicode") + "\n"
 
@@ -247,14 +256,20 @@ def build_page(picks):
                 tags.append('<span class="tag timely">Timely</span>')
             r = p.get("resolved")
             audio = ('<a href="%s">Audio</a>' % e(r["enclosure"]["url"], quote=True)) if r else ""
+            art = r.get("show_image") if r else ""
+            img = ('<img class="art" src="%s" alt="%s cover" width="64" height="64" loading="lazy">'
+                   % (e(art, quote=True), e(p["show"], quote=True))) if art else '<div class="art"></div>'
             cards.append(
                 '<article class="pick">\n'
+                '  %s\n'
+                '  <div class="body">\n'
                 '  <p class="show">%s</p>\n'
                 '  <h3><a href="%s">%s</a></h3>\n'
                 '  <p class="why">%s</p>\n'
                 '  <p class="meta">%s%s</p>\n'
+                '  </div>\n'
                 "</article>" % (
-                    e(p["show"]), e(ep_link(p), quote=True), e(ep_title(p)), e(p["why"]),
+                    img, e(p["show"]), e(ep_link(p), quote=True), e(ep_title(p)), e(p["why"]),
                     " ".join(tags), (" &middot; " + audio) if audio else ""))
         sections.append('<section>\n<h2>%s</h2>\n%s\n</section>' % (e(fmt_day(day)), "\n".join(cards)))
     with open(os.path.join(os.path.dirname(__file__), "page.html"), encoding="utf-8") as f:

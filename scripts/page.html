@@ -42,7 +42,9 @@
     font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.08em;
     color: var(--muted); margin: 32px 0 10px; padding-bottom: 6px; border-bottom: 1px solid var(--line);
   }
-  .pick { padding: 14px 0 18px; border-bottom: 1px solid var(--line); }
+  .pick { display: flex; gap: 14px; align-items: flex-start; padding: 14px 0 18px; border-bottom: 1px solid var(--line); }
+  .pick .art { width: 64px; height: 64px; border-radius: 8px; flex: none; background: var(--line); object-fit: cover; }
+  .pick .body { min-width: 0; }
   .pick:last-child { border-bottom: 0; }
   .show { margin: 0; color: var(--accent); font-weight: 600; font-size: 0.9rem; }
   .pick h3 { margin: 2px 0 8px; font-size: 1.12rem; line-height: 1.35; }

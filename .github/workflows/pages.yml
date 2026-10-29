@@ -49,7 +49,7 @@ jobs:
     needs: deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Check the live feed, page, cover and audio
+      - name: Check the live feed, page, cover, audio and show art
         run: |
           sleep 20
           base="https://mylacc.github.io/podcast-picks"
@@ -63,14 +63,20 @@ jobs:
           print("live feed items:", len(items))
           bad = 0
           for it in items:
-              url = it.find("enclosure").get("url")
-              req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "podcast-picks-verify/1.0"})
-              try:
-                  with urllib.request.urlopen(req, timeout=30) as r:
-                      print(r.status, r.headers.get("Content-Type"), it.findtext("title"))
-              except Exception as e:
-                  bad += 1
-                  print("::warning::audio check failed:", it.findtext("title"), e)
+              art = it.find("{http://www.itunes.com/dtds/podcast-1.0.dtd}image")
+              checks = [("audio", it.find("enclosure").get("url"))]
+              if art is not None:
+                  checks.append(("art", art.get("href")))
+              else:
+                  print("::warning::no show art:", it.findtext("title"))
+              for kind, url in checks:
+                  req = urllib.request.Request(url, method="HEAD", headers={"User-Agent": "podcast-picks-verify/1.0"})
+                  try:
+                      with urllib.request.urlopen(req, timeout=30) as r:
+                          print(kind, r.status, r.headers.get("Content-Type"), it.findtext("title"))
+                  except Exception as e:
+                      bad += 1
+                      print("::warning::%s check failed:" % kind, it.findtext("title"), e)
           assert items, "live feed has no items"
-          print("audio failures:", bad)
+          print("failures:", bad)
           PY
