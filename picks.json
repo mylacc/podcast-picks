@@ -1,0 +1,148 @@
+{
+  "picks": [
+    {
+      "date": "2026-10-29",
+      "rank": 1,
+      "show": "Stay Wealthy Retirement Show",
+      "itunes_id": 1260181429,
+      "title": "8 Stealth Taxes That Can Leave the IRS a Tip",
+      "match": "stealth tax",
+      "published": "2026-10-29",
+      "episode_url": "https://podcasts.apple.com/us/podcast/8-stealth-taxes-that-can-leave-the-irs-a-tip-and-how-to-avoid-it/id1260181429",
+      "timely": true,
+      "why": "Taylor Schulte argues that your tax bracket understates what your next dollar of income really costs, because crossing certain income lines adds surtaxes, phases out deductions or raises Medicare premiums. He also makes the case that some of those lines are worth crossing on purpose. The useful takeaway is a simple three-scenario test to run before locking in year-end Roth conversions or gain harvesting. His audience is near Medicare age, so a few of the eight matter less for younger early retirees."
+    },
+    {
+      "date": "2026-10-29",
+      "rank": 2,
+      "show": "Money For the Rest of Us",
+      "search": "Money For the Rest of Us",
+      "title": "Stock Pickers Keep Losing, Who's Winning?",
+      "match": "stock pickers",
+      "published": "2026-10-28",
+      "episode_url": "https://moneyfortherestofus.com/567-why-stock-pickers-keep-losing/",
+      "timely": false,
+      "why": "David Stein explains why active managers keep falling further behind even as their skill improves: index flows themselves push up the stocks that indexes already hold. He walks through research on who actually sells to index funds (mostly companies and insiders) and how much a dollar of passive flow moves prices, plus a San Francisco Fed paper on whether boomer retirement will drag on stocks. He closes with ways to own index funds without piling further into the S&P 500."
+    },
+    {
+      "date": "2026-10-29",
+      "rank": 3,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "Rob Arnott on the Hidden Costs of Passive Investing and the Real Winners From AI",
+      "match": "arnott",
+      "published": "2026-10-21",
+      "episode_url": "https://podcasts.apple.com/us/podcast/rob-arnott-on-the-hidden-costs-of-passive-investing/id1490296778",
+      "timely": false,
+      "why": "Rob Arnott argues that owning today's AI leaders is not the same as owning tomorrow's AI winners, and that cap-weighted index funds pay a real cost when stocks are added to the index, one that never shows up in the expense ratio. He makes the case for weighting by business size instead of market value. He also argues that GPU spending and depreciation are turning Big Tech into capital-heavy businesses, which matters for anyone whose index fund is now dominated by them."
+    },
+    {
+      "date": "2026-10-29",
+      "rank": 4,
+      "show": "Rational Reminder",
+      "search": "Rational Reminder",
+      "title": "A Conversation With The Wealthy Barber",
+      "match": "wealthy barber",
+      "published": "2026-10-29",
+      "episode_url": "https://rationalreminder.ca/podcast/433",
+      "timely": false,
+      "why": "Dave Chilton says most retirees get no advice at all on the order in which to draw down their accounts, and that tax-smart sequencing can be worth tens of thousands of dollars without adding any risk. He also pushes back on drawing tax-deferred accounts down early as a one-size-fits-all rule (Canada's \"RRSP meltdown\", a close cousin of the US Roth conversion ladder), and Ben Felix goes further, calling the blanket version irresponsible. It is Canada-specific in places, but the sequencing logic carries over."
+    },
+    {
+      "date": "2026-10-28",
+      "rank": 1,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "Dr. Daniel Crosby on Behaviorally Optimal Portfolios, Risk Composure and the Casino Myth",
+      "match": "crosby",
+      "published": "2026-10-27",
+      "episode_url": "https://excessreturnspod.substack.com/p/full-transcript-daniel-crosby-on",
+      "timely": false,
+      "why": "Daniel Crosby argues that the best portfolio is the one you won't abandon, so he builds separate sleeves for safety, stability and growth instead of one optimized mix. He cites SEI research finding that clients holding a 6 to 24 month safety bucket were about ten times less likely to bail to cash in 2008, a behavioral case for cash buckets beyond the math. His stability sleeve is an unusual equal mix of large growth, small value, mid value, gold and intermediate Treasuries, and he splits risk into tolerance, capacity and \"risk composure\", meaning how likely panic is to override the other two."
+    },
+    {
+      "date": "2026-10-28",
+      "rank": 2,
+      "show": "Afford Anything",
+      "search": "Afford Anything",
+      "title": "Q&A: I'm the Executor of Dad's $500K Portfolio. Should I Cash It Out?",
+      "match": "executor",
+      "published": "2026-10-27",
+      "episode_url": "https://podscripts.co/podcasts/afford-anything/qa-im-the-executor-of-dads-500k-portfolio-should-i-cash-it-out",
+      "timely": false,
+      "why": "The bond question is the standout: a caller's long-term Treasury index fund fell 38% over six years, and the hosts argue that individual bonds take the same interest-rate loss even when no statement shows it. Joe Saul-Sehy calls short-term bonds a drag that barely keeps up with inflation and prefers T-bills for cash, while Paula Pant is buying 30-year Treasuries near 5.2% to 5.5% to hold to maturity. The hosts also disagree on whether an executor should move an inherited portfolio to cash during probate."
+    },
+    {
+      "date": "2026-10-28",
+      "rank": 3,
+      "show": "Odd Lots",
+      "search": "Odd Lots Bloomberg",
+      "title": "AI Agents Are Already Changing the Price of Goods",
+      "match": "price of goods",
+      "published": "2026-10-26",
+      "episode_url": "https://podscripts.co/podcasts/odd-lots/ai-agents-are-already-changing-the-price-of-goods",
+      "timely": true,
+      "why": "Lindsay Owens argues that pricing algorithms and AI shopping agents are ending the idea of a fixed price. In one test, 75% of 23 Instacart items were priced differently for different shoppers, with gaps of up to 23%, and AI agents told to find the cheapest option still steered users to pricier ones using their email and financial data. The episode doesn't discuss inflation statistics, but if prices become personal, the inflation a household actually lives through could drift from the CPI that inflation-linked bonds and withdrawal rules track."
+    },
+    {
+      "date": "2026-10-27",
+      "rank": 1,
+      "show": "Risk Parity Radio",
+      "search": "Risk Parity Radio",
+      "title": "Episode 547: The RPR Reddit Forum, A Great Many Topics On Portfolios And Taxes, And Portfolio Reviews",
+      "match": "547",
+      "published": "2026-10-23",
+      "episode_url": "https://podcastrex.com/shows/risk-parity-radio/episode-547-the-rpr-reddit-forum-a-great-many-topics-on-portfolios-and-taxes-and-portfolio-reviews-as-of-october-23-2026",
+      "timely": false,
+      "why": "Frank Vasquez is the counterweight to the \"Beyond Bonds\" pitch below: he argues that covered call funds mostly change how payouts show up rather than total return, and that many new income ETFs are higher-fee packaging of old exposures. He also covers a listener rebuild of trend-following returns back to 1971 for backtesting managed futures, and the case for resetting withdrawal order and Roth conversions every year from tax brackets, health costs and income mix instead of following a fixed sequence. It leans on gold, so it's a good stress test if you don't."
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 1,
+      "show": "Talking Wealth",
+      "search": "Talking Wealth Compound",
+      "title": "What If This Is the Worst Time to Retire?",
+      "match": "worst time to retire",
+      "published": "2026-10-22",
+      "episode_url": "https://podcasts.thecompoundnews.com/show/talking-wealth/what-if-this-is-the-worst-time-to-retire/",
+      "timely": false,
+      "why": "Ben Carlson and Christine Benz take on sequence-of-returns risk after a long bull market, and how today's higher yields change the withdrawal math. They cover buckets, front-loading spending, delaying Social Security and the case for a plain 60/40, and per the show notes they also weigh structured income products. It's a good check on whether an elaborate retirement income setup is doing more work than it needs to."
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 2,
+      "show": "All-In",
+      "itunes_id": 1502871393,
+      "title": "AI Cyber Panic, Ken Griffin's Bubble Warning, The Fall of France?",
+      "match": "griffin",
+      "published": "2026-10-24",
+      "episode_url": "https://podcasts.apple.com/us/podcast/ai-cyber-panic-ken-griffins-bubble-warning-the-fall/id1502871393",
+      "timely": true,
+      "why": "The first eight minutes are Ken Griffin saying AI is probably a bubble, and there's a long section on France's debt crisis. It's worth it for anyone uneasy about how much of a total-market fund now rides on AI, and for a bigger dose of sovereign debt stress than most FI shows give."
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 3,
+      "show": "The Meb Faber Show",
+      "search": "The Meb Faber Show",
+      "title": "#655 Vincent Deluard: The S&P Is Hiding a Bear Market",
+      "match": "deluard",
+      "published": "2026-10-23",
+      "episode_url": "https://www.themebfabershow.com/episodes/5x6FhEHGOzf",
+      "timely": true,
+      "why": "Vincent Deluard, StoneX's director of global macro strategy and a longtime bull who has turned bearish, argues that a handful of megacaps are propping up the cap-weighted S&P 500 while most stocks are weak. He reads tax collections as a real-time gauge of the economy and argues Europe looks like Japan around 2012. The concentration argument is the part with lasting value; his closing trade ideas in the yen, the Korean won and UK stocks are tactical."
+    },
+    {
+      "date": "2026-10-26",
+      "rank": 4,
+      "show": "Animal Spirits",
+      "search": "Animal Spirits Podcast",
+      "title": "Talk Your Book: Beyond Bonds in Retirement",
+      "match": "beyond bonds",
+      "published": "2026-10-26",
+      "episode_url": "https://podcasts.thecompoundnews.com/show/animalspirits/talk-your-book-beyond-bonds-in-retirement/",
+      "timely": false,
+      "why": "Calamos's Matt Kaufman makes the strongest pitch yet for replacing part of a retirement bond allocation with buffered, principal-protected, autocall and option-income ETFs, which he says now do what annuities and structured notes used to with clearer fees and ETF tax treatment. He cites roughly an 8.75% one-year cap on the S&P 500 with full principal protection. It's a sponsored segment, and a fully protected one-year product is essentially T-bills plus call options: nominal, with no inflation protection, and a cap that shrinks when rates fall. Pair it with Risk Parity Radio 547 for the rebuttal."
+    }
+  ]
+}
