@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - picks.json
+      - videos.json
       - scripts/**
       - assets/**
       - .github/workflows/pages.yml
@@ -54,8 +55,10 @@ jobs:
           sleep 20
           base="https://mylacc.github.io/podcast-picks"
           curl -fsS "$base/feed.xml" -o feed.xml
-          curl -fsS "$base/" -o index.html && grep -q "FI Podcast Picks" index.html
+          curl -fsS "$base/videos.xml" -o videos.xml
+          curl -fsS "$base/" -o index.html && grep -q "FI Podcast Picks" index.html && grep -q "videos.xml" index.html
           curl -fsSI "$base/cover.png" | grep -i "content-type: image/png"
+          curl -fsSI "$base/video-cover.png" | grep -i "content-type: image/png"
           python3 - <<'PY'
           import re, urllib.request, xml.etree.ElementTree as ET
           ch = ET.parse("feed.xml").getroot().find("channel")
@@ -83,5 +86,20 @@ jobs:
                       bad += 1
                       print("::warning::%s check failed:" % kind, it.findtext("title"), e)
           assert items, "live feed has no items"
+          vch = ET.parse("videos.xml").getroot().find("channel")
+          vitems = vch.findall("item")
+          print("live video feed items:", len(vitems))
+          for it in vitems:
+              thumb = it.find("{http://search.yahoo.com/mrss/}thumbnail").get("url")
+              link = it.findtext("link") or ""
+              if not link.startswith("https://www.youtube.com/watch?v="):
+                  bad += 1
+                  print("::warning::video link is not a YouTube watch link:", it.findtext("title"))
+              try:
+                  with urllib.request.urlopen(urllib.request.Request(thumb, method="HEAD"), timeout=30) as r:
+                      print("thumb", r.status, r.headers.get("Content-Type"), it.findtext("title"))
+              except Exception as e:
+                  bad += 1
+                  print("::warning::thumbnail check failed:", it.findtext("title"), e)
           print("failures:", bad)
           PY

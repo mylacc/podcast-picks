@@ -1,0 +1,40 @@
+{
+  "about": "Channels the daily digest checks for new videos. role: main = video version of a show the curator already follows (used to spot overlap, not picked); sometimes = video version of a show the curator sometimes follows (prefer the audio pick in picks.json); outside = everything else, the main pool for video picks. podcast = the show's podcast name when the channel posts its episodes. Channel ids were checked against each channel's own page on 2026-10-30.",
+  "channels": [
+    {"name": "Ben Felix", "handle": "@BenFelixCSI", "channel_id": "UCDXTQ8nWmx_EhZ2v-kp7QxA", "role": "outside", "focus": "Evidence-based investing explainers from a PWL portfolio manager"},
+    {"name": "Rob Berger", "handle": "@rob_berger", "channel_id": "UC9C17-OMxa-7oRSaCtztObw", "role": "outside", "focus": "Retirement planning, withdrawal strategy, Roth conversions, annuities"},
+    {"name": "The Plain Bagel", "handle": "@ThePlainBagel", "channel_id": "UCFCEuCsyWP0YkP3CZ3Mr01Q", "role": "outside", "focus": "Plain-language finance and market explainers from a CFA charterholder"},
+    {"name": "Patrick Boyle", "handle": "@PBoyle", "channel_id": "UCASM0cgfkJxQ1ICmRilfHLw", "role": "outside", "focus": "Markets, macro and finance news with a dry academic take; often timely"},
+    {"name": "James Shack", "handle": "@JamesShack", "channel_id": "UCLXQalldcm6gMYMQfLMliww", "role": "outside", "focus": "Retirement income and drawdown case studies (UK-based, ideas travel)"},
+    {"name": "Sean Mullaney (FI Tax Guy)", "handle": "@SeanMullaneyVideos", "channel_id": "UC3KawDukmFDywPvtq89AESQ", "role": "outside", "focus": "Tax planning for early retirees: Roth ladders, HSAs, 72(t), ACA"},
+    {"name": "Taylor Schulte", "handle": "@YouStayWealthy", "channel_id": "UCphPg7Lh6J_H_GN7bQQq_YQ", "role": "outside", "podcast": "Stay Wealthy Retirement Podcast", "focus": "Retirement tax and income planning"},
+    {"name": "Jazz Wealth", "handle": "@Jazzwealth", "channel_id": "UCCFkdk7tmcgvgTe9G0lrmUA", "role": "outside", "focus": "Retirement planning walkthroughs: Social Security, withdrawal order, Medicare"},
+    {"name": "Mad Fientist", "handle": "@madfientist", "channel_id": "UC1zPjXNeHzIrBVjNmCofPFw", "role": "outside", "podcast": "Mad Fientist", "focus": "Early retirement in practice, years in"},
+    {"name": "The Money Guy Show", "handle": "@MoneyGuyShow", "channel_id": "UC9vUu4vlIlMC0dHQCTvQPbg", "role": "outside", "podcast": "The Money Guy Show", "focus": "Mainstream financial planning; occasional retirement deep dives"},
+    {"name": "Morgan Housel", "handle": "@Morgan-Housel", "channel_id": "UCoKOdZ1XEQwCRbgcTV8ry_g", "role": "sometimes", "podcast": "The Morgan Housel Podcast", "focus": "Behavior and money essays"},
+    {"name": "Bogleheads", "handle": "@bogleheads3687", "channel_id": "UC77ksrKd7P8uXslpuy6HAfQ", "role": "outside", "focus": "Bogleheads conference talks and chapter presentations"},
+    {"name": "Michael Kitces", "handle": "@MichaelKitces", "channel_id": "UCXc_P8cKMbUvHFyDwAtz--Q", "role": "outside", "podcast": "Financial Advisor Success", "focus": "Advisor-facing planning research; pick only when it's about retirement or tax mechanics"},
+    {"name": "Rational Reminder", "handle": "@rationalreminder", "channel_id": "UCOErWFfNOQzXsgE7f5S_ULw", "role": "outside", "podcast": "Rational Reminder", "focus": "Long-form interviews with finance academics"},
+    {"name": "Excess Returns", "handle": "@ExcessReturns", "channel_id": "UCPYvx_y92dvI1PSdiho0ALw", "role": "outside", "podcast": "Excess Returns", "focus": "Interviews with quants and strategists on markets and portfolio construction"},
+    {"name": "The Meb Faber Show", "handle": "@mebfabershow", "channel_id": "UCKvWzzrVUA_DSCoKXL6GU2w", "role": "outside", "podcast": "The Meb Faber Show", "focus": "Investor interviews; trend, value and global allocation"},
+    {"name": "Money For the Rest of Us", "handle": "@MoneyFortheRestofUs", "channel_id": "UCtt2ULVUQ6Og8JZVThj2kQg", "role": "outside", "podcast": "Money For the Rest of Us", "focus": "Investing and markets explained for individual investors"},
+    {"name": "The Compound", "handle": "@TheCompoundNews", "channel_id": "UCBRpqrzuuqE8TZcWw75JSdw", "role": "main", "podcast": "Animal Spirits; Ask the Compound; The Compound and Friends", "focus": "Ritholtz Wealth shows. Animal Spirits and Ask the Compound episodes are main shows; The Compound and Friends and other series count as outside"},
+    {"name": "Two Sides of FI", "handle": "@TwoSidesOfFI", "channel_id": "UC4IeUR6mgNzxsfid_nKoe-w", "role": "main", "podcast": "Two Sides of FI", "focus": "Early retirement planning and life after FI"},
+    {"name": "ChooseFI", "handle": "@ChooseFI", "channel_id": "UCD48MgOLoqfPml3C31PhXqA", "role": "main", "podcast": "ChooseFI", "focus": "Financial independence community show"},
+    {"name": "Inside Out Money", "handle": "@insideoutmoney", "channel_id": "UCZBsrwhke3wFFMhufHRAFbQ", "role": "main", "podcast": "Inside Out Money", "focus": "Money psychology and values"},
+    {"name": "BiggerPockets Money", "handle": "@BiggerPocketsMoney", "channel_id": "UC2cfzvGC8CJNWtvaynN7TeA", "role": "sometimes", "podcast": "BiggerPockets Money", "focus": "FIRE stories and money mechanics"},
+    {"name": "Afford Anything", "handle": "@afford-anything-podcast", "channel_id": "UCH4pNKkgp6SKjb7-RfcrpLg", "role": "sometimes", "podcast": "Afford Anything", "focus": "Paula Pant's show: investing, FI, listener Q&A"},
+    {"name": "All the Hacks (Chris Hutchins)", "handle": "@chris-hutchins", "channel_id": "UCwc7ibNXraT8N8NrDMD71yg", "role": "sometimes", "podcast": "All the Hacks", "focus": "Optimizing money, travel and points"},
+    {"name": "All-In", "handle": "@allin", "channel_id": "UCESLZhusAkFfsNsApnjF_Cg", "role": "sometimes", "podcast": "All-In", "focus": "Tech, markets and policy; very timely"},
+    {"name": "Tim Ferriss", "handle": "@timferriss", "channel_id": "UCznv7Vf9nBdJYvBagFdAHWw", "role": "sometimes", "podcast": "The Tim Ferriss Show", "focus": "Long interviews; pick only money or investing episodes"}
+  ],
+  "search": [
+    "financial independence retire early",
+    "early retirement withdrawal strategy",
+    "safe withdrawal rate",
+    "retirement income planning",
+    "bond ladder retirement income",
+    "Roth conversion early retirement",
+    "index investing evidence"
+  ]
+}

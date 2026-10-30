@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build feed.xml and index.html from picks.json.
+"""Build feed.xml, videos.xml and index.html from picks.json and videos.json.
 
 For each pick, find the show's own RSS feed (feed_url, else Apple's lookup by
 itunes_id, else Apple's search by name), find the episode in it by the "match"
@@ -21,6 +21,8 @@ import sys
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+
+import videos
 
 SITE_URL = "https://mylacc.github.io/podcast-picks/"
 FEED_URL = SITE_URL + "feed.xml"
@@ -264,11 +266,13 @@ def build_feed(picks):
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(rss, encoding="unicode") + "\n"
 
 
-def build_page(picks):
+def build_page(picks, vids):
     e = html.escape
     days = {}
     for p in picks:
         days.setdefault(p["date"], []).append(p)
+    for v in vids:
+        days.setdefault(v["date"], [])
     sections = []
     for day in sorted(days, reverse=True):
         cards = []
@@ -296,12 +300,15 @@ def build_page(picks):
                 "</article>" % (
                     img, e(p["show"]), e(ep_link(p), quote=True), e(ep_title(p)), e(p["why"]),
                     " ".join(tags), (" &middot; " + audio) if audio else ""))
+        for v in sorted((v for v in vids if v["date"] == day and v.get("resolved")), key=lambda v: v.get("rank", 99)):
+            cards.append(videos.card(v, fmt_day))
         sections.append('<section>\n<h2>%s</h2>\n%s\n</section>' % (e(fmt_day(day)), "\n".join(cards)))
     with open(os.path.join(os.path.dirname(__file__), "page.html"), encoding="utf-8") as f:
         tpl = f.read()
     return (tpl.replace("{{TITLE}}", e(TITLE))
                .replace("{{DESCRIPTION}}", e(DESCRIPTION))
                .replace("{{FEED_URL}}", e(FEED_URL))
+               .replace("{{VIDEO_FEED_URL}}", e(videos.FEED_URL))
                .replace("{{REPO_URL}}", e(REPO_URL))
                .replace("{{PICKS}}", "\n".join(sections)))
 
@@ -316,18 +323,30 @@ def main():
         picks = json.load(f)["picks"]
     picks.sort(key=lambda p: (p["date"], -p.get("rank", 99)), reverse=True)
     resolve(picks, args.offline)
+    vids = []
+    if os.path.exists(os.path.join(root, "videos.json")):
+        with open(os.path.join(root, "videos.json"), encoding="utf-8") as f:
+            vids = json.load(f)["videos"]
+    vids.sort(key=lambda p: (p["date"], -p.get("rank", 99)), reverse=True)
+    videos.resolve(vids, args.offline, fetch, log, warn)
     os.makedirs(args.out, exist_ok=True)
     feed = build_feed(picks)
     ET.fromstring(feed)  # must be well-formed
     with open(os.path.join(args.out, "feed.xml"), "w", encoding="utf-8") as f:
         f.write(feed)
-    shutil.copyfile(os.path.join(root, "assets", "cover.png"), os.path.join(args.out, "cover.png"))
+    vfeed = videos.build_feed(vids, pick_time, slug, fmt_day)
+    ET.fromstring(vfeed)  # must be well-formed
+    with open(os.path.join(args.out, "videos.xml"), "w", encoding="utf-8") as f:
+        f.write(vfeed)
+    for name in ("cover.png", "video-cover.png"):
+        shutil.copyfile(os.path.join(root, "assets", name), os.path.join(args.out, name))
     with open(os.path.join(args.out, "index.html"), "w", encoding="utf-8") as f:
-        f.write(build_page(picks))
+        f.write(build_page(picks, vids))
     with open(os.path.join(args.out, "resolved.json"), "w", encoding="utf-8") as f:
         json.dump([{k: v for k, v in p.items() if k != "why"} for p in picks], f, indent=2, default=str)
     ok = sum(1 for p in picks if p.get("resolved"))
     log("Resolved %d of %d picks into the feed." % (ok, len(picks)))
+    log("Video feed: %d of %d videos." % (sum(1 for v in vids if v.get("resolved")), len(vids)))
     if not args.offline and ok == 0:
         sys.exit("No picks resolved; not publishing an empty feed.")
 

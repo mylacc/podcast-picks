@@ -8,6 +8,7 @@
 <link rel="icon" href="cover.png">
 <meta property="og:image" content="https://mylacc.github.io/podcast-picks/cover.png">
 <link rel="alternate" type="application/rss+xml" title="{{TITLE}}" href="feed.xml">
+<link rel="alternate" type="application/rss+xml" title="FI Video Picks" href="videos.xml">
 <style>
   :root {
     --bg: #fbfaf7; --fg: #1d1d1b; --muted: #66645e; --line: #e4e1d9;
@@ -34,6 +35,8 @@
     padding: 14px 16px; margin-bottom: 28px;
   }
   .subscribe p { margin: 0 0 6px; }
+  .subscribe p + code { margin-bottom: 12px; }
+  .subscribe code:last-child { margin-bottom: 0; }
   .subscribe code {
     display: block; overflow-wrap: anywhere; padding: 8px 10px; border-radius: 6px;
     background: var(--bg); border: 1px solid var(--line); font-size: 0.92rem;
@@ -46,6 +49,10 @@
   .pick .art { width: 64px; height: 64px; border-radius: 8px; flex: none; background: var(--line); object-fit: cover; }
   .pick .body { min-width: 0; }
   .pick:last-child { border-bottom: 0; }
+  .pick .thumb { flex: none; display: block; width: 128px; height: 72px; border-radius: 8px; overflow: hidden; background: var(--line); }
+  .pick .thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  @media (max-width: 480px) { .pick .thumb { width: 96px; height: 54px; } }
+  .note { margin: 0 0 8px; color: var(--muted); font-style: italic; }
   .show { margin: 0; color: var(--accent); font-weight: 600; font-size: 0.9rem; }
   .pick h3 { margin: 2px 0 8px; font-size: 1.12rem; line-height: 1.35; }
   .pick h3 a { color: inherit; text-decoration: none; }
@@ -68,12 +75,14 @@
   </header>
   <p class="lede">{{DESCRIPTION}}</p>
   <div class="subscribe">
-    <p><strong>Subscribe</strong> in any podcast app (AntennaPod, Pocket Casts, Overcast, Apple Podcasts) by adding this feed address:</p>
+    <p><strong>Podcast picks:</strong> add this address in any podcast app (AntennaPod, Pocket Casts, Overcast, Apple Podcasts):</p>
     <code>{{FEED_URL}}</code>
+    <p><strong>Video picks:</strong> add this address in any RSS reader (Feeder, Inoreader, Feedly, NetNewsWire):</p>
+    <code>{{VIDEO_FEED_URL}}</code>
   </div>
 {{PICKS}}
   <footer>
-    Episodes play from each show's own audio file; nothing is re-hosted. Notes are summaries, not investment advice.
+    Episodes play from each show's own audio file and videos link to YouTube; nothing is re-hosted. Notes are summaries, not investment advice.
     Source on <a href="{{REPO_URL}}">GitHub</a>.
   </footer>
 </main>

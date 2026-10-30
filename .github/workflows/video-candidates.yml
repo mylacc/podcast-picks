@@ -1,0 +1,67 @@
+name: Video candidates
+
+# Lists recent uploads from youtube-channels.json (plus search hits from other
+# channels) and publishes them as candidates.json on the video-candidates
+# branch, where the daily digest reads them. YouTube isn't reachable from where
+# the digest runs, so this list is how it sees new videos.
+
+on:
+  schedule:
+    # Before the 6:27am New York digest in both EDT and EST; two runs in case one is delayed
+    - cron: "30 9 * * *"
+    - cron: "5 10 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - youtube-channels.json
+      - scripts/candidates.py
+      - .github/workflows/video-candidates.yml
+
+concurrency:
+  group: video-candidates
+  cancel-in-progress: false
+
+jobs:
+  list:
+    # Third-party code (yt-dlp) runs here, with read-only access
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install yt-dlp
+        run: pip install -q yt-dlp==2026.10.26
+      - name: List recent videos
+        run: python3 scripts/candidates.py --out candidates.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: candidates
+          path: candidates.json
+          retention-days: 3
+
+  publish:
+    # Only git runs here; it force-pushes a one-commit branch holding candidates.json
+    needs: list
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: candidates
+          path: pub
+      - name: Push to the video-candidates branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd pub
+          printf '%s\n' "# Video candidates" "" \
+            "Written by the Video candidates workflow on main twice each morning. Recent uploads from the channels in youtube-channels.json, plus search hits from other channels, for the daily digest to choose from. Not published to the page or feeds." \
+            "" "Raw file: https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/video-candidates/candidates.json" > README.md
+          python3 -c "import json; d=json.load(open('candidates.json')); print(len(d['videos']), 'channel videos,', len(d['search_hits']), 'search hits')"
+          git init -q -b video-candidates
+          git add candidates.json README.md
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -qm "Video candidates $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push -qf "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" video-candidates

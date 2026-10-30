@@ -1,4 +1,6 @@
-# Renders assets/cover.png (3000x3000 RGB). Usage: python3 scripts/cover.py assets/cover.png
+# Renders the cover art (3000x3000 RGB).
+# Usage: python3 scripts/cover.py assets/cover.png            (FI PODCAST PICKS)
+#        python3 scripts/cover.py assets/video-cover.png VIDEO  (FI VIDEO PICKS)
 import math, sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 S = 3000
@@ -44,7 +46,7 @@ tw, th = bb[2] - bb[0], bb[3] - bb[1]
 d.text(((W - tw) / 2 - bb[0], 260 * SS - bb[1]), txt, font=big, fill=cream)
 
 sub = font("InterDisplay-Bold.otf", 270)
-txt2 = "PODCAST PICKS"
+txt2 = ("VIDEO" if len(sys.argv) > 2 and sys.argv[2].upper() == "VIDEO" else "PODCAST") + " PICKS"
 bb2 = d.textbbox((0, 0), txt2, font=sub)
 # letter spacing by drawing per char
 spacing = 22 * SS
