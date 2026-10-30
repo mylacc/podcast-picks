@@ -1,3 +1,30 @@
 {
-  "videos": []
+  "videos": [
+    {
+      "date": "2026-10-30",
+      "rank": 1,
+      "channel": "Rob Berger",
+      "channel_id": "UC9C17-OMxa-7oRSaCtztObw",
+      "video_id": "_qKXbKgNZmk",
+      "title": "The One Number That Explains Why Your TIPS Fund Lost to Inflation",
+      "published": "2026-10-21",
+      "duration": "11:26",
+      "timely": false,
+      "summary": "Rob Berger answers a viewer whose short-term TIPS ETF returned about 1.7% in a year when inflation ran 3.7%. He explains how a fund's average maturity and duration let rising real yields eat into the inflation adjustment, then compares two ultra-short TIPS funds that kept pace and asks when individual TIPS make more sense than a fund.",
+      "why": "A clear, short explanation of why owning TIPS through a fund is not the same as being protected from inflation, with the trade-offs laid out."
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 2,
+      "channel": "Rob Berger",
+      "channel_id": "UC9C17-OMxa-7oRSaCtztObw",
+      "video_id": "XBUNwMSieOs",
+      "title": "Roth Conversions Won't Save Your Retirement",
+      "published": "2026-10-29",
+      "duration": "24:59",
+      "timely": false,
+      "summary": "Using a viewer's case of a 58-year-old couple with large pretax and taxable balances, Berger models Roth conversions that fill the 22% and the 24% brackets and compares them with no conversions. He frames the goal as lower lifetime taxes rather than just avoiding required minimum distributions, and finds the plan's chance of success barely moves either way.",
+      "why": "A useful corrective to the idea that conversions are always worth it: they can trim lifetime taxes, but they rarely make or break a plan, and he argues against locking in a fixed conversion schedule."
+    }
+  ]
 }

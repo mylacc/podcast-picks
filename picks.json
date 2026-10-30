@@ -143,6 +143,42 @@
       "episode_url": "https://podcasts.thecompoundnews.com/show/animalspirits/talk-your-book-beyond-bonds-in-retirement/",
       "timely": false,
       "why": "Calamos's Matt Kaufman makes the strongest pitch yet for replacing part of a retirement bond allocation with buffered, principal-protected, autocall and option-income ETFs, which he says now do what annuities and structured notes used to with clearer fees and ETF tax treatment. He cites roughly an 8.75% one-year cap on the S&P 500 with full principal protection. It's a sponsored segment, and a fully protected one-year product is essentially T-bills plus call options: nominal, with no inflation protection, and a cap that shrinks when rates fall. Pair it with Risk Parity Radio 547 for the rebuttal."
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 1,
+      "show": "Odd Lots",
+      "search": "Odd Lots Bloomberg",
+      "title": "What Wall Street Really Thinks About the AI Trade Now",
+      "match": "ai trade now",
+      "published": "2026-10-29",
+      "episode_url": "https://podscripts.co/podcasts/odd-lots/what-wall-street-really-thinks-about-the-ai-trade-now",
+      "timely": true,
+      "why": "Barclays strategist Alexander Altmann argues the market is still in the denial stage of an AI boom, with stress showing first in cash-poor neocloud lenders and data center bonds, much as 2007 trouble started at the edges before reaching banks. He says the idea that AI spending is immune to higher interest rates is wrong, because heavy corporate bond issuance is now competing for limited capital even as rates stay high. He also expects most of next year's S&P 500 earnings growth to come from the AI ecosystem, which is a concrete way to see how much an index fund now rides on one theme."
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 2,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "The S&P 500 Is Just 50 Stocks. The Nasdaq Is a 67% AI Bet. Kai Wu on What Else Is Hiding in Your Funds",
+      "match": "just 50 stocks",
+      "published": "2026-10-29",
+      "episode_url": "https://www.youtube.com/watch?v=jR3sAVB8mcs",
+      "timely": true,
+      "why": "Sparkline Capital's Kai Wu looks through fund labels to show how the S&P 500, the Nasdaq, AI theme funds, emerging markets and even dividend and low-volatility funds can lean on the same companies and the same AI spending cycle. He argues that the number of holdings overstates diversification, and that cutting AI infrastructure exposure usually means loading up on the laggards instead, which is its own bet. Useful for anyone who owns several index funds and assumes they are spread out."
+    },
+    {
+      "date": "2026-10-30",
+      "rank": 3,
+      "show": "BiggerPockets Money",
+      "search": "BiggerPockets Money Podcast",
+      "title": "J Scott Explains the Economic Domino Effect of an Energy Shock",
+      "match": "energy shock",
+      "published": "2026-10-30",
+      "episode_url": "https://podcasts.apple.com/us/podcast/j-scott-explains-the-economic-domino-effect-of/id1330225136?i=1000798853948",
+      "timely": true,
+      "why": "Investor and author J Scott walks through how an energy supply shock travels: oil futures move at once, gasoline follows within a week or two, and the effects work through supply chains into inflation and mortgage rates for months or years. He adds tariffs and deglobalization as extra pressure and asks whether the Federal Reserve can bring inflation down without stalling growth. A plain-language primer on the inflation channel that matters most to anyone living off a portfolio."
     }
   ]
 }
