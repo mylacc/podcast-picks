@@ -179,6 +179,42 @@
       "episode_url": "https://podcasts.apple.com/us/podcast/j-scott-explains-the-economic-domino-effect-of/id1330225136?i=1000798853948",
       "timely": true,
       "why": "Investor and author J Scott walks through how an energy supply shock travels: oil futures move at once, gasoline follows within a week or two, and the effects work through supply chains into inflation and mortgage rates for months or years. He adds tariffs and deglobalization as extra pressure and asks whether the Federal Reserve can bring inflation down without stalling growth. A plain-language primer on the inflation channel that matters most to anyone living off a portfolio."
+    },
+    {
+      "date": "2026-10-31",
+      "rank": 1,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "Tech is Selling Off. AI Debt Fears Are Rising. So Why Does a $4B Manager See a Reverse Bubble?",
+      "match": "reverse bubble",
+      "published": "2026-10-30",
+      "episode_url": "https://podcasts.apple.com/za/podcast/tech-is-selling-off-ai-debt-fears-are-rising-so-why/id1490296778",
+      "timely": true,
+      "why": "Money manager Jay Hatfield makes the bull case against the AI bubble story: much of the buildout runs on long-term compute contracts with investment-grade tenants, priced below today's spot rates, which makes it look more like contracted infrastructure than speculation. He pairs that with a rule of thumb linking the 10-year Treasury yield to the expected peak Fed funds rate and stock valuations, and explains why he avoids long Treasuries near 5%. Worth hearing for anyone uneasy about how much of a total market fund now rides on AI, because it is the strongest version of the other side."
+    },
+    {
+      "date": "2026-10-31",
+      "rank": 2,
+      "show": "All-In",
+      "itunes_id": 1502871393,
+      "title": "Anthropic S-1 Shocker, Greatest Business Ever? Google's $500B Wipeout, Midterm Predictions",
+      "match": "Anthropic S-1",
+      "published": "2026-10-30",
+      "episode_url": "https://podcasts.apple.com/us/podcast/anthropic-s-1-shocker-greatest-business-ever-googles/id1502871393",
+      "timely": true,
+      "why": "The hosts dig into Anthropic's IPO filing and its margins, and argue over whether Alphabet's post-earnings drop overshot. The part most relevant to long-horizon investors is the debate about AI borrowing: how much debt the buildout could add to bond markets, what that might do to Treasury yields, and how concentrated the economy has become in a handful of companies. The closing segment on the midterms can be skipped."
+    },
+    {
+      "date": "2026-10-31",
+      "rank": 3,
+      "show": "Earn & Invest",
+      "itunes_id": 1440355498,
+      "title": "781. Ten Things I Do to Spend Peacefully",
+      "match": "Spend Peacefully",
+      "published": "2026-10-30",
+      "episode_url": "https://podcasts.apple.com/us/podcast/781-ten-things-i-do-to-spend-peacefully/id1440355498",
+      "timely": false,
+      "why": "Doc G, a retired physician, lays out ten habits that let him spend in retirement without second-guessing every purchase, set against ideas like Die With Zero. It treats the spending phase as a problem of anxiety and decision fatigue rather than of withdrawal-rate math, which is the part many careful savers find hardest after years of accumulating."
     }
   ]
 }
