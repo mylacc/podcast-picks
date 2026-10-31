@@ -51,6 +51,8 @@ def main():
             missing = PICK_FIELDS - p.keys()
             if missing:
                 sys.exit("%s: pick %r is missing %s" % (name, p.get("title"), sorted(missing)))
+            if isinstance(p.get("itunes_id"), str) and p["itunes_id"].isdigit():
+                p["itunes_id"] = int(p["itunes_id"])
             if (p["date"], p["show"], p["title"]) not in have_picks:
                 picks["picks"].append(p)
                 have_picks.add((p["date"], p["show"], p["title"]))
