@@ -215,6 +215,18 @@
       "episode_url": "https://podcasts.apple.com/us/podcast/781-ten-things-i-do-to-spend-peacefully/id1440355498",
       "timely": false,
       "why": "Doc G, a retired physician, lays out ten habits that let him spend in retirement without second-guessing every purchase, set against ideas like Die With Zero. It treats the spending phase as a problem of anxiety and decision fatigue rather than of withdrawal-rate math, which is the part many careful savers find hardest after years of accumulating."
+    },
+    {
+      "date": "2026-11-01",
+      "rank": 1,
+      "show": "Risk Parity Radio",
+      "search": "Risk Parity Radio",
+      "title": "Episode 548: The Intersection of Biased Skepticism, Shark Jumping (From Ep. 532), And Personal Finance Hoarding Culture",
+      "match": "Episode 548",
+      "published": "2026-10-31",
+      "episode_url": "https://riskparityradio.buzzsprout.com/1228499/episodes/20038381-episode-548-the-intersection-of-biased-skepticism-shark-jumping-from-ep-532-and-personal-finance-hoarding-culture",
+      "timely": false,
+      "why": "Frank Vasquez responds to recent Early Retirement Now critiques of risk parity style portfolios, arguing that ERN's own toolbox gave a mix of US stocks, small cap value, Treasuries and gold a noticeably higher safe withdrawal rate than a classic 75/25 stock and bond mix, with the biggest gap at the worst historical starting points. He also argues that planning very long retirements to end with a large leftover balance amounts to hoarding, and that gold backtests using pre-1971 data mislead because gold was pegged to the dollar. It is one side of a public debate, but a sharp challenge to conservative withdrawal assumptions; the toolbox results come about 11 minutes in and the hoarding discussion near the end."
     }
   ]
 }
