@@ -227,6 +227,30 @@
       "episode_url": "https://riskparityradio.buzzsprout.com/1228499/episodes/20038381-episode-548-the-intersection-of-biased-skepticism-shark-jumping-from-ep-532-and-personal-finance-hoarding-culture",
       "timely": false,
       "why": "Frank Vasquez responds to recent Early Retirement Now critiques of risk parity style portfolios, arguing that ERN's own toolbox gave a mix of US stocks, small cap value, Treasuries and gold a noticeably higher safe withdrawal rate than a classic 75/25 stock and bond mix, with the biggest gap at the worst historical starting points. He also argues that planning very long retirements to end with a large leftover balance amounts to hoarding, and that gold backtests using pre-1971 data mislead because gold was pegged to the dollar. It is one side of a public debate, but a sharp challenge to conservative withdrawal assumptions; the toolbox results come about 11 minutes in and the hoarding discussion near the end."
+    },
+    {
+      "date": "2026-11-02",
+      "rank": 1,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "Chip Stocks Look Cheap. AI Spending Is Surging. So Why Is Cameron Dawson Watching for Peak Earnings?",
+      "match": "Peak Earnings",
+      "published": "2026-11-01",
+      "episode_url": "https://www.youtube.com/watch?v=57Ko8K0XOho",
+      "timely": true,
+      "why": "NewEdge Wealth CIO Cameron Dawson looks at the AI chip trade from the earnings side rather than the valuation side. Her concern is that semiconductor profits could be near a cyclical peak, in which case today's modest price-to-earnings ratios are the classic trap of cyclical stocks looking cheapest at the top. A useful counterpoint to the more bullish AI cases going around, and a reminder to ask how durable the earnings behind a low multiple really are."
+    },
+    {
+      "date": "2026-11-02",
+      "rank": 2,
+      "show": "The Psychology of Money",
+      "search": "The Psychology of Money Morgan Housel",
+      "title": "The Hardest Financial Skill",
+      "match": "Hardest Financial Skill",
+      "published": "2026-11-01",
+      "episode_url": "https://www.youtube.com/watch?v=eTNs-QJyH3k",
+      "timely": false,
+      "why": "Morgan Housel reads a short essay built on one of his best-known ideas, that the hardest financial skill is getting the goalpost to stop moving, then takes listener questions on returns from AI, how to think about bubbles, and making your younger self proud. A short, reflective listen on knowing when you have enough, which matters as much in the spending years as in the saving ones."
     }
   ]
 }
