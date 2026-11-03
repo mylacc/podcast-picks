@@ -263,6 +263,30 @@
       "episode_url": "https://pocketcasts.com/podcast/acquired/eed80bc0-599b-0133-cb25-0d11918ab357/vanguard/7c7bf139-189a-4974-914b-21e8c576fbe9",
       "timely": false,
       "why": "Ben Gilbert and David Rosenthal tell the full story of Vanguard, from John Bogle's firing at Wellington in 1974 and the unusual mutual ownership structure he built in response, through the rise of index funds, the ETF debate, 2008, Buffett's bet against hedge funds and the firm's first outside CEO. At close to four hours it is a long listen, but it is the best single account of how low-cost indexing went from a fringe idea to the default for millions of investors, and why Vanguard's structure lets it keep cutting fees."
+    },
+    {
+      "date": "2026-11-03",
+      "rank": 1,
+      "show": "Odd Lots",
+      "search": "Odd Lots Bloomberg",
+      "title": "The $300 Billion Structured Notes Market Is Booming",
+      "match": "Structured Notes",
+      "published": "2026-11-02",
+      "episode_url": "https://www.bloomberg.com/news/audio/2026-11-02/odd-lots-the-structured-notes-market-is-booming-podcast",
+      "timely": true,
+      "why": "Nomura's Alex Micalizzi explains how structured notes pair a bank IOU with a derivative, why US sales are on pace for roughly $300 billion this year, and how they have become a popular way for individual investors to bet on AI. A clear look at how these products are built and priced, and at a large pool of AI exposure that sits outside the usual index funds and ETFs."
+    },
+    {
+      "date": "2026-11-03",
+      "rank": 2,
+      "show": "Animal Spirits",
+      "search": "Animal Spirits Podcast",
+      "title": "Talk Your Book: Diversifying the AI Trade",
+      "match": "Diversifying the AI",
+      "published": "2026-11-02",
+      "episode_url": "https://awealthofcommonsense.com/2026/11/talk-your-book-diversifying-the-ai-trade/",
+      "timely": true,
+      "why": "Nuveen's Brian Griggs talks through ways to own the AI buildout without piling further into mega-cap tech, from municipal bonds with high tax-equivalent yields to private money moving from data centers toward real assets and farmland, plus when to rebalance. It is a sponsored Talk Your Book episode, so treat it as a pitch, but it is a useful map of what diversifying away from the AI trade can look like."
     }
   ]
 }

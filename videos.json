@@ -64,6 +64,19 @@
       "timely": false,
       "summary": "Rob Berger sets out to explain guardrails withdrawal rules: when a market decline should trigger a cut in retirement spending, and when strong returns allow spending to rise.",
       "why": "Guardrails are a common answer to spending more early in retirement without running out later, so this is a practical companion to any debate about withdrawal rates."
+    },
+    {
+      "date": "2026-11-03",
+      "rank": 1,
+      "channel": "Patrick Boyle",
+      "channel_id": "UCASM0cgfkJxQ1ICmRilfHLw",
+      "video_id": "Ic1Jf7VlXRM",
+      "title": "Anthropic Opened Its Books. What Is It Really Worth?",
+      "published": "2026-11-01",
+      "duration": "39:09",
+      "timely": true,
+      "summary": "Former hedge fund manager and finance professor Patrick Boyle sets out to value Anthropic now that its IPO filing has made its financials public, and to weigh that against the price the market is talking about.",
+      "why": "Boyle is a reliably skeptical voice on hype valuations, and this is one of the most watched takes on a filing that moved AI stocks."
     }
   ]
 }
