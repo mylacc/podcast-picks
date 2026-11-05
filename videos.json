@@ -90,6 +90,32 @@
       "timely": true,
       "summary": "An Excess Returns conversation, separate from the John Davi episode, that sets out to compare today's AI-heavy market with 1999 and to ask whether the real overvaluation sits in the defensive stocks investors are hiding in.",
       "why": "It flips the usual concentration worry, which is worth hearing for anyone shifting toward low-volatility or value stocks as a hedge."
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 1,
+      "channel": "Sean Mullaney (FI Tax Guy)",
+      "channel_id": "UC3KawDukmFDywPvtq89AESQ",
+      "video_id": "A69Z9X8h6Ao",
+      "title": "Do Democrat Election Victories Mean Future Tax Hikes for Retirees?",
+      "published": "2026-11-04",
+      "duration": "5:22",
+      "timely": true,
+      "summary": "Tax planner Sean Mullaney responds to this week's midterm results and sets out to answer whether they make tax increases on retirees more likely. In an earlier post on the same question he argued they remain unlikely, pointing to the growing share of older voters and to the absence of a major tax hike aimed at retirees in more than three decades.",
+      "why": "Five minutes that test the common argument for doing Roth conversions now before tax rates rise."
+    },
+    {
+      "date": "2026-11-05",
+      "rank": 2,
+      "channel": "Bogleheads",
+      "channel_id": "UC77ksrKd7P8uXslpuy6HAfQ",
+      "video_id": "Or4S5N-Gsfc",
+      "title": "Bogleheads® Chapter Series – Navigating TIPS (Treasury Inflation -Protected Securities) with Kevin M",
+      "published": "2026-11-04",
+      "duration": "2:09:58",
+      "timely": false,
+      "summary": "A two hour Bogleheads chapter session on Treasury Inflation-Protected Securities, presented by Kevin M.",
+      "why": "A long reference session for anyone using TIPS for inflation-protected retirement income; the slides make it better watched than listened to, and it is easy to skim for the parts that matter."
     }
   ]
 }
