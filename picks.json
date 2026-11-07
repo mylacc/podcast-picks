@@ -335,6 +335,42 @@
       "episode_url": "https://podcasts.apple.com/us/podcast/the-macro-implications-of-the-blue-tsunami/id1056200096?i=1000800214745",
       "timely": true,
       "why": "Skanda Amarnath of Employ America joins Joe Weisenthal and Tracy Alloway to work through what this week's Democratic midterm gains could mean for the economy and markets: the future makeup of the Fed's rate-setting committee, the fight against inflation, tariffs, and the AI data center buildout. A fast, well-informed first read on the election's macro consequences while they are still fresh."
+    },
+    {
+      "date": "2026-11-07",
+      "rank": 1,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "Stocks Are Falling. The Economy Is Weakening. So Why Doesn't Mike Green See Passive Flows Turning?",
+      "match": "Mike Green",
+      "published": "2026-11-07",
+      "episode_url": "https://excessreturnspod.substack.com/p/stocks-are-falling-the-economy-is",
+      "timely": true,
+      "why": "Mike Green of Tier1 Alpha makes his case that passive investing now shapes stock prices: steady retirement contributions flow through target date funds and market cap weighted indexes into the largest companies, while liquidity in those stocks doesn't grow with their market value. He explains how those flows may drive concentration and factor behavior, where valuation analysis still fits, and what could interrupt the buying, with employment trends the thing to watch. Useful for anyone who owns index funds and wants the strongest version of the critique of what passive flows do to the market."
+    },
+    {
+      "date": "2026-11-07",
+      "rank": 2,
+      "show": "The Meb Faber Show",
+      "search": "The Meb Faber Show",
+      "title": "SocGen's Albert Edwards on 10% Yields and a 50% to 60% Drop | #656",
+      "match": "Albert Edwards",
+      "published": "2026-11-06",
+      "episode_url": "https://www.themebfabershow.com/episodes/Hdan4gb0STl",
+      "timely": true,
+      "why": "Societe Generale's long-standing bear Albert Edwards lays out why he thinks fiscal dominance could push central banks toward money printing, send the 10-year Treasury yield toward 10% and take the S&P 500 down 50% to 60%, with stocks and bonds falling together. He also covers China's weakening credit impulse, oil and food prices, what the IPO boom says about the cycle, and gold as a debasement hedge. An extreme view, but a clear one, and worth hearing as a stress test for any portfolio that counts on bonds to cushion a stock decline."
+    },
+    {
+      "date": "2026-11-07",
+      "rank": 3,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "Tech is Selling Off. Spending Is Outrunning Wages. What Happens When the Wealth Effect Fades?",
+      "match": "Wealth Effect",
+      "published": "2026-11-06",
+      "episode_url": "https://excessreturnspod.substack.com/p/tech-is-selling-off-spending-is-outrunning",
+      "timely": true,
+      "why": "Bob Elliott of Unlimited and Aahan Menon of Prometheus Research argue that stock market gains are letting households spend faster than wages grow, and ask what happens to corporate profits if that wealth effect fades. They debate whether bonds look better than stocks or cash, how persistent inflation ties the Fed's hands, and whether AI is delivering the productivity and revenue gains outside tech needed to justify its investment boom. Both separate these risks from a 2008-style credit crisis, which makes it a measured counterpoint to the more dramatic bear cases."
     }
   ]
 }
