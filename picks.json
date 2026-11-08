@@ -371,6 +371,30 @@
       "episode_url": "https://excessreturnspod.substack.com/p/tech-is-selling-off-spending-is-outrunning",
       "timely": true,
       "why": "Bob Elliott of Unlimited and Aahan Menon of Prometheus Research argue that stock market gains are letting households spend faster than wages grow, and ask what happens to corporate profits if that wealth effect fades. They debate whether bonds look better than stocks or cash, how persistent inflation ties the Fed's hands, and whether AI is delivering the productivity and revenue gains outside tech needed to justify its investment boom. Both separate these risks from a 2008-style credit crisis, which makes it a measured counterpoint to the more dramatic bear cases."
+    },
+    {
+      "date": "2026-11-08",
+      "rank": 1,
+      "show": "Afford Anything",
+      "search": "Afford Anything",
+      "title": "First Friday: Stocks Crashed. Jobs Boomed. Now What?",
+      "match": "Jobs Boomed",
+      "published": "2026-11-07",
+      "episode_url": "https://www.audioscrape.com/podcast/afford-anything/episode/first-friday-stocks-crashed-jobs-boomed-now-what-97360",
+      "timely": true,
+      "why": "The monthly economic roundup takes on a strange week: a record one-day loss in tech stocks, with the S&P 500 down 4.4% and the Nasdaq in correction, set against a jobs report that came in near three times expectations. It covers what concentration risk means for index fund investors when a sell-off starts in AI stocks, inflation running ahead of wage growth, a Fed hold with two members dissenting in favor of a hike, and a rule of thumb for where the 10-year Treasury tends to trade and what today's yield implies about inflation expectations. It also notes the 3.6% Social Security raise and the higher Medicare premiums that eat into it. One of the first calm walk-throughs of the sell-off."
+    },
+    {
+      "date": "2026-11-08",
+      "rank": 2,
+      "show": "The Long View",
+      "search": "The Long View Morningstar",
+      "title": "Jim Dahle: Is Avoiding Taxes Costing You Money?",
+      "match": "Dahle",
+      "published": "2026-11-04",
+      "episode_url": "https://www.morningstar.com/podcasts/the-long-view/jim-dahle-is-avoiding-taxes-costing-you-money",
+      "timely": false,
+      "why": "White Coat Investor founder Jim Dahle, who calls himself a recovering optimizer, talks with Morningstar's hosts about when cash, nominal bonds and TIPS each earn a place in a portfolio, how he thinks about direct indexing and tax-loss harvesting, and which strategies belong on the too-hard pile. The thread running through it is the case that chasing the last bit of tax savings can cost more than it saves. A useful check for anyone whose tax-efficiency rules have started to complicate their portfolio."
     }
   ]
 }
