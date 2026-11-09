@@ -395,6 +395,30 @@
       "episode_url": "https://www.morningstar.com/podcasts/the-long-view/jim-dahle-is-avoiding-taxes-costing-you-money",
       "timely": false,
       "why": "White Coat Investor founder Jim Dahle, who calls himself a recovering optimizer, talks with Morningstar's hosts about when cash, nominal bonds and TIPS each earn a place in a portfolio, how he thinks about direct indexing and tax-loss harvesting, and which strategies belong on the too-hard pile. The thread running through it is the case that chasing the last bit of tax savings can cost more than it saves. A useful check for anyone whose tax-efficiency rules have started to complicate their portfolio."
+    },
+    {
+      "date": "2026-11-09",
+      "rank": 1,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "Blue Wave Sell-Off. Four Market Pros on What Comes Next",
+      "match": "Post Election Decline",
+      "published": "2026-11-08",
+      "episode_url": "https://excessreturnspod.substack.com/p/blue-wave-sell-off-four-market-pros",
+      "timely": true,
+      "why": "The show's monthly Last Call recap brings four quick interviews recorded after the post-election sell-off. Brent Kochuba of SpotGamma explains how options dealer positioning can amplify selling into November expiration; Ben Hunt argues the midterms clarified the limits of presidential power and handed governors more say over data center permits; Aahan Menon ties falling AI stocks to consumer spending through the wealth effect; and Eric Pachman tracks diesel and freight costs through producer prices to show how many industries face unusual cost increases, along with the Strategic Petroleum Reserve's emergency oil loans. Four different lenses on the same week, each in a few minutes."
+    },
+    {
+      "date": "2026-11-09",
+      "rank": 2,
+      "show": "Risk Parity Radio",
+      "search": "Risk Parity Radio",
+      "title": "Episode 551: Stop Chasing Yield, The Limitations Of International Diversification, And Portfolio Reviews As Of November 6, 2026",
+      "match": "Episode 551",
+      "published": "2026-11-08",
+      "episode_url": "https://www.listennotes.com/podcasts/risk-parity-radio/episode-551-stop-chasing-gNAR-2EoxFG/",
+      "timely": false,
+      "why": "Frank Vasquez argues that autocallable, high-income and covered call funds mostly change how a payout is delivered rather than improving returns, and that forced income means forced taxes in a taxable account, so selling shares beats buying a built-in retirement paycheck. He then challenges global stock funds as largely a currency bet rather than real business diversification, suggests managed futures as a more deliberate currency tool, and makes the case that splitting value from growth protects better in a drawdown than splitting US from international. A sharp counterpoint to two very common portfolio habits."
     }
   ]
 }
