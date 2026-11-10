@@ -419,6 +419,30 @@
       "episode_url": "https://www.listennotes.com/podcasts/risk-parity-radio/episode-551-stop-chasing-gNAR-2EoxFG/",
       "timely": false,
       "why": "Frank Vasquez argues that autocallable, high-income and covered call funds mostly change how a payout is delivered rather than improving returns, and that forced income means forced taxes in a taxable account, so selling shares beats buying a built-in retirement paycheck. He then challenges global stock funds as largely a currency bet rather than real business diversification, suggests managed futures as a more deliberate currency tool, and makes the case that splitting value from growth protects better in a drawdown than splitting US from international. A sharp counterpoint to two very common portfolio habits."
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 1,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "The AI Trade Is Cracking | Peter Boockvar on What to Own Instead",
+      "match": "Boockvar",
+      "published": "2026-11-09",
+      "episode_url": "https://excessreturnspod.substack.com/p/the-ai-trade-is-cracking-peter-boockvar",
+      "timely": true,
+      "why": "Peter Boockvar of OnePoint BFG Wealth Partners explains how AI demand can keep growing while the companies building data centers still struggle to earn a return, using CoreWeave's multiyear lease commitments and borrowing costs as the case study, and traces how lenders, chipmakers and contractors each carry different risk if computing prices fall. He also reads the consumer through concerts, travel and hiring, covers oil inventories as shipping resumes and what Fed policy means for the cost of financing AI, and says where he sees value instead: overseas stocks, healthcare, consumer staples and gold miners. A clear map of where the stress in the AI buildout would show up first."
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 2,
+      "show": "All-In",
+      "itunes_id": 1502871393,
+      "title": "Midterm Blood Bath, $4T AI Sell Off, Data Center Freeze, What's Next for Trump",
+      "match": "Midterm Blood Bath",
+      "published": "2026-11-07",
+      "episode_url": "https://www.shortform.com/podcast/episode/all-in-with-chamath-jason-sacks-friedberg-2026-11-07-episode-summary-midterm-blood-bath-4t-ai-sell-off-data-center-freeze-what-s-next-for-trump",
+      "timely": true,
+      "why": "Much of the episode is election politics; the market-relevant discussion of data centers and AI comes later. The hosts argue that a state moratorium on new data center permits would push AI compute to Canada, Mexico, Southeast Asia and possibly the Gulf, raise the cost of compute, and favor the hyperscalers that already own their infrastructure. They also discuss how ending the war could bring oil prices down sharply and give the Fed room to cut, what AI regulation under a Democratic Congress might look like, and tax proposals including a higher capital gains rate on very large gains. A fast, opinionated read on how the election could reshape the AI trade."
     }
   ]
 }

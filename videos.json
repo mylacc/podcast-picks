@@ -116,6 +116,32 @@
       "timely": false,
       "summary": "A two hour Bogleheads chapter session on Treasury Inflation-Protected Securities, presented by Kevin M.",
       "why": "A long reference session for anyone using TIPS for inflation-protected retirement income; the slides make it better watched than listened to, and it is easy to skim for the parts that matter."
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 1,
+      "channel": "Sean Mullaney (FI Tax Guy)",
+      "channel_id": "UC3KawDukmFDywPvtq89AESQ",
+      "video_id": "XLsnVArCiyI",
+      "title": "$43K Roth Conversion Tax Free?",
+      "published": "2026-11-09",
+      "duration": "10:45",
+      "timely": false,
+      "summary": "Tax planner Sean Mullaney takes up the question in the title: whether a Roth conversion of about $43,000 can be done without owing federal income tax.",
+      "why": "Mullaney is one of the clearest voices on early-retirement tax planning, and low-income years before Social Security and required distributions are when conversions like this are worth running the numbers on."
+    },
+    {
+      "date": "2026-11-10",
+      "rank": 2,
+      "channel": "Rob Berger",
+      "channel_id": "UC9C17-OMxa-7oRSaCtztObw",
+      "video_id": "zHl6OW8J_a0",
+      "title": "Should You Stop Saving for Retirement Because of AI? (FQF)",
+      "published": "2026-11-08",
+      "duration": "24:44",
+      "timely": true,
+      "summary": "Rob Berger takes on the argument, popular among some tech leaders, that AI-driven abundance will make saving for retirement unnecessary.",
+      "why": "A widely watched response to a claim that is spreading quickly, and a useful sanity check before anyone changes a savings plan because of it."
     }
   ]
 }
