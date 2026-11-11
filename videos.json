@@ -142,6 +142,19 @@
       "timely": true,
       "summary": "Rob Berger takes on the argument, popular among some tech leaders, that AI-driven abundance will make saving for retirement unnecessary.",
       "why": "A widely watched response to a claim that is spreading quickly, and a useful sanity check before anyone changes a savings plan because of it."
+    },
+    {
+      "date": "2026-11-11",
+      "rank": 1,
+      "channel": "PensionCraft",
+      "channel_id": "UC9OIwUcx-Uss7xj7s1P5XGw",
+      "video_id": "a51uVxuKo6U",
+      "title": "The Smartest Ways to Withdraw Money in Retirement",
+      "published": "2026-11-08",
+      "duration": "12:24",
+      "timely": false,
+      "summary": "PensionCraft backtests the inflation-adjusted 4% rule against guardrail withdrawal rules on US and UK history, and shows that the rules which never run out of money get there by cutting income, in one stagflation-era case by more than half.",
+      "why": "It frames the decision around two numbers, the income needed and the lowest income that would be acceptable, gives cash buffers a reality check, and closes with the bond ladder plan the presenter would use, which makes it a good stress test for any withdrawal plan."
     }
   ]
 }

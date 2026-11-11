@@ -443,6 +443,30 @@
       "episode_url": "https://www.shortform.com/podcast/episode/all-in-with-chamath-jason-sacks-friedberg-2026-11-07-episode-summary-midterm-blood-bath-4t-ai-sell-off-data-center-freeze-what-s-next-for-trump",
       "timely": true,
       "why": "Much of the episode is election politics; the market-relevant discussion of data centers and AI comes later. The hosts argue that a state moratorium on new data center permits would push AI compute to Canada, Mexico, Southeast Asia and possibly the Gulf, raise the cost of compute, and favor the hyperscalers that already own their infrastructure. They also discuss how ending the war could bring oil prices down sharply and give the Fed room to cut, what AI regulation under a Democratic Congress might look like, and tax proposals including a higher capital gains rate on very large gains. A fast, opinionated read on how the election could reshape the AI trade."
+    },
+    {
+      "date": "2026-11-11",
+      "rank": 1,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "This $1.5 Trillion Manager Expects More Fed Hikes. So Why Is He Still Bullish?",
+      "match": "Expects More Fed Hikes",
+      "published": "2026-11-10",
+      "episode_url": "https://podcasts.apple.com/us/podcast/this-%241-5-trillion-manager-expects-more-fed-hikes-so/id1490296778?i=1000800992347",
+      "timely": true,
+      "why": "Mike Hunstad, president of Northern Trust Asset Management, estimates that AI now drives a bit over half of the risk in the S&P 500, yet he stays constructive into 2027 even while expecting further Fed hikes, pointing to tight credit spreads, contained inflation expectations and strong earnings growth. He calls AI the new beta, explains why equal weighting is not a real fix, and makes the case for a modest tilt toward quality, value and low-volatility stocks instead. He also argues the dot-com comparison breaks down because today's AI leaders generate enormous free cash flow, and warns that rising government debt could push up the term premium on long Treasuries. A clear framework for sizing AI exposure without betting the whole portfolio on it."
+    },
+    {
+      "date": "2026-11-11",
+      "rank": 2,
+      "show": "Odd Lots",
+      "search": "Odd Lots Bloomberg",
+      "title": "The Perfect Storm That Clobbered Hedge Funds",
+      "match": "Clobbered Hedge Funds",
+      "published": "2026-11-11",
+      "episode_url": "https://podcasts.apple.com/us/podcast/the-perfect-storm-that-clobbered-hedge-funds/id1056200096?i=1000801172164",
+      "timely": true,
+      "why": "Bloomberg's Nishant Kumar, who covers hedge funds, and macro strategist Michael Ball explain why October was one of the worst stretches for hedge funds in recent memory and what they are watching after the midterms, from the AI buildout to the expected Anthropic IPO. It is a useful look at how professional money was positioned going into the AI selloff, which is the other side of the trade that index investors hold by default."
     }
   ]
 }
