@@ -467,6 +467,30 @@
       "episode_url": "https://podcasts.apple.com/us/podcast/the-perfect-storm-that-clobbered-hedge-funds/id1056200096?i=1000801172164",
       "timely": true,
       "why": "Bloomberg's Nishant Kumar, who covers hedge funds, and macro strategist Michael Ball explain why October was one of the worst stretches for hedge funds in recent memory and what they are watching after the midterms, from the AI buildout to the expected Anthropic IPO. It is a useful look at how professional money was positioned going into the AI selloff, which is the other side of the trade that index investors hold by default."
+    },
+    {
+      "date": "2026-11-12",
+      "rank": 1,
+      "show": "Rational Reminder",
+      "search": "Rational Reminder",
+      "title": "The Winners and Losers of Index Investing",
+      "match": "Winners and Losers",
+      "published": "2026-11-12",
+      "episode_url": "https://rationalreminder.ca/podcast/435",
+      "timely": false,
+      "why": "Oxford's Martin Schmalz models indexing as a kind of tragedy of the commons: as diversification gets cheaper, demand for stocks rises, so each buyer pays more and expects to earn less, while more risk-averse bond holders come out ahead. He also walks through the evidence linking common ownership of competing firms to higher consumer prices, using airline routes as the case study, though he notes this is driven less by index funds than by large concentrated owners and centralized voting. The second half covers why wealthy investors so often avoid low-cost diversified portfolios, how fees compound over a generation, and family office governance. The practical takeaway is to plan around lower expected equity returns, even though individual index investors have little to worry about."
+    },
+    {
+      "date": "2026-11-12",
+      "rank": 2,
+      "show": "Odd Lots",
+      "search": "Odd Lots Bloomberg",
+      "title": "What Nvidia's Megaspeed Scandal Is Really All About",
+      "match": "Megaspeed",
+      "published": "2026-11-12",
+      "episode_url": "https://www.bloomberg.com/news/audio/2026-11-12/odd-lots-what-nvidia-s-megaspeed-scandal-is-all-about-podcast",
+      "timely": true,
+      "why": "Bloomberg's Mackenzie Hawkins explains Megaspeed, a Singapore cloud company that has bought large numbers of Nvidia chips, how advanced chips get smuggled around export rules, and where the Washington fight over export controls now stands. Megaspeed denies wrongdoing and Nvidia says it found no evidence of smuggling. Worth a listen as a policy risk aimed at the biggest company in the major US stock indexes."
     }
   ]
 }
