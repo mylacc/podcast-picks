@@ -551,6 +551,42 @@
       "episode_url": "https://podcasters.spotify.com/pod/show/excess-returns/episodes/Fidelitys-Jurrien-Timmer-on-AI-Spending--Bond-Yields--and-the-Next-Phase-of-the-Bull-Market-e3sbava",
       "timely": true,
       "why": "Fidelity's Jurrien Timmer explains how to tell a rate-driven stock selloff from a growth scare: they look alike in stocks but do opposite things to bonds, which decides whether bonds cushion the drop. He walks through his investment clock, the Fed model of stocks versus bonds, the case for bond income, and a 60/20/20 portfolio with a fifth in gold and commodities. He also covers AI data-center spending and its financing limits, companies shifting cash from buybacks to capital spending, semiconductor earnings near a cyclical peak just as valuations look cheapest, real yields and fiscal risk, lessons from 1994 and 1999, and rebalancing when others are selling."
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 1,
+      "show": "Odd Lots",
+      "search": "Odd Lots Bloomberg",
+      "title": "How Wall Street Is Bracing For the Post-Jensen Huang Nvidia Era",
+      "match": "Bracing For the Post",
+      "published": "2026-11-14",
+      "episode_url": "https://podcasts.apple.com/us/podcast/how-wall-street-is-bracing-for-the-post-jensen-huang/id1056200096?i=1000801889822",
+      "timely": true,
+      "why": "Bernstein's Stacy Rasgon explains why he downgraded Nvidia after Jensen Huang's resignation and why he is pessimistic about the stock in the near term. He covers key-person risk, who the board might pick as the next CEO, the risk of a government crackdown on the company's business practices in Asia and the Washington fight over chip exports to China, and whether customers now shift toward AMD and Broadcom. Two details stand out: Nvidia changed its revenue reporting to count sales by where the customer is based rather than where chips ship, which can obscure deliveries routed through Singapore and Malaysia, and its heavy supply chain financing is a risk of its own. He also says what he is watching going into Nvidia's earnings and whether the uncertainty spreads to AI labs and data center providers."
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 2,
+      "show": "Stay Wealthy Retirement Show",
+      "itunes_id": 1260181429,
+      "title": "9 Retirement Mistakes You May Not Be Able to Undo",
+      "match": "Not Be Able to Undo",
+      "published": "2026-11-12",
+      "episode_url": "https://youstaywealthy.com/podcasts/retirement-planning-mistakes/",
+      "timely": false,
+      "why": "Taylor Schulte walks through nine retirement decisions that are hard or impossible to reverse, roughly in the order retirees meet them. They include rolling appreciated company stock into an IRA without checking net unrealized appreciation, losing the age 55 rule by rolling a 401(k) into an IRA, taking a rollover check made payable to the account owner and the 20% withholding that follows, picking a single-life pension with no survivor benefit, the one-time Social Security withdrawal and voluntary suspension, the Medicare Part B penalty and the eight-month window after employer coverage, and HSA contributions that become excess once Medicare Part A is backdated up to six months. On taxes, federal tax withheld from an IRA distribution counts as paid evenly through the year, so a December withholding can cure an estimated tax shortfall where a December estimated payment cannot. The last mistake is trusting a will or divorce decree over a beneficiary form, illustrated by the 2009 Supreme Court case Kennedy v. DuPont, where about $400,000 went to an ex-spouse named on an old form."
+    },
+    {
+      "date": "2026-11-16",
+      "rank": 3,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "Stocks Are Falling. Put Buying Hit a Record. So Why Does an Options Trader See a Thanksgiving Rally?",
+      "match": "Thanksgiving Rally",
+      "published": "2026-11-14",
+      "episode_url": "https://excessreturnspod.substack.com/p/full-transcript-brent-kochuba-on-d93",
+      "timely": true,
+      "why": "Brent Kochuba of SpotGamma reads the options market after a record day for S&P 500 put buying on November 5. He explains how dealer hedging and options expiration move prices, why the market is in a negative gamma regime that amplifies swings, and which index levels he sees as resistance and support. His base case is that volatility drains once this week's catalysts pass (Nvidia earnings, VIX expiration, the Anthropic IPO and November options expiration), setting up a rally into Thanksgiving, though he is less sure about December. He calls a December Fed hike nearly certain with the 10-year yield back near 5%, and argues that rising rates broke the rotation from tech into rate-sensitive sectors that had been supporting the market. He treats the neocloud stocks as the signal for whether any tech rally can hold. It is a trader's view of one specific week, so it is most useful heard soon."
     }
   ]
 }
