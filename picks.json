@@ -600,6 +600,31 @@
       "episode_url": "https://www.youtube.com/watch?v=fx-BO3Hr_U0",
       "timely": false,
       "why": "Steve Chen talks with Brandon Bouier, founder of the Day Two Investing community, which grew out of personal finance conversations among Amazon employees after Bouier moved from government work into big tech. The core of the hour is concentration risk from employer stock and stock-based compensation, which ties a career and a portfolio to the same company, and the case for taking only as much investment risk as a goal actually requires by working backward from the goal. They also cover the cost of playing it too safe, investor behavior and dollar-cost averaging through downturns, how AI and data center spending are changing tech careers, and where AI tools fit next to a financial advisor. It is not tied to the news, so it keeps."
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 1,
+      "show": "Odd Lots",
+      "search": "Odd Lots Bloomberg",
+      "itunes_id": 1056200096,
+      "title": "The Impossible Trilemma That Hangs Over the Nvidia Crisis",
+      "match": "Impossible Trilemma",
+      "published": "2026-11-16",
+      "episode_url": "https://www.bloomberg.com/news/audio/2026-11-16/odd-lots-the-trilemma-hanging-over-the-nvidia-crisis-podcast",
+      "timely": true,
+      "why": "Tian Yang of Variant Perception argues that a government cannot pay for defense and industrial buildout, entitlements and low inflation all at once, and that history shows low inflation is the one that gives way. He expects financial repression, roughly 4 to 5% inflation while rates are held down, along with tools like stablecoins as captive Treasury buyers, bill-heavy issuance and a slow drift toward capital controls. He also reads the 2023 to 2025 gold rally as a regime warning, like the 1968 break of the London Gold Pool. A useful frame for anyone thinking about inflation protection. Tied to current events, so worth hearing soon."
+    },
+    {
+      "date": "2026-11-17",
+      "rank": 2,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "My Biggest Bet Isn't the Stock Market | Inside Meb Faber's Personal Portfolio",
+      "match": "Show Us Your Portfolio Meb Faber",
+      "published": "2026-11-15",
+      "episode_url": "https://excessreturnspod.substack.com/p/my-biggest-bet-isnt-the-stock-market",
+      "timely": false,
+      "why": "Cullen Roche walks Meb Faber through his own money. About a third of his net worth is in public markets, split between buy and hold (global stocks, bonds and real assets) and trend following, and the rest is his firm, farmland, his home and more than 400 startup bets. Faber makes the case for holding safe money in a diversified global portfolio instead of T-bills, which he estimates earns about 2 points more without deeper drawdowns, and explains why trend following gets half the public allocation after how it held up in 2008 and 2022. Roche adds that long-duration bonds stay risky even over long horizons. Evergreen."
     }
   ]
 }
