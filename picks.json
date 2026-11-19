@@ -625,6 +625,42 @@
       "episode_url": "https://excessreturnspod.substack.com/p/my-biggest-bet-isnt-the-stock-market",
       "timely": false,
       "why": "Cullen Roche walks Meb Faber through his own money. About a third of his net worth is in public markets, split between buy and hold (global stocks, bonds and real assets) and trend following, and the rest is his firm, farmland, his home and more than 400 startup bets. Faber makes the case for holding safe money in a diversified global portfolio instead of T-bills, which he estimates earns about 2 points more without deeper drawdowns, and explains why trend following gets half the public allocation after how it held up in 2008 and 2022. Roche adds that long-duration bonds stay risky even over long horizons. Evergreen."
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 1,
+      "show": "Stay Wealthy Retirement Show",
+      "itunes_id": 1260181429,
+      "title": "2027 Tax Brackets Are Out (And 4 Retirement Numbers That Didn't Change)",
+      "match": "2027 Tax Brackets Are Out",
+      "published": "2026-11-16",
+      "episode_url": "https://podcasts.apple.com/us/podcast/2027-tax-brackets-are-out-and-4-retirement-numbers/id1260181429",
+      "timely": true,
+      "why": "A short bonus episode on the IRS's 2027 inflation updates. Brackets and the standard deduction went up, but several thresholds that matter to retirees stayed frozen, so they quietly bite harder each year. It walks through how the new brackets change federal income tax, the income level where three key thresholds line up, and four frozen numbers that can raise a retiree's tax bill. Useful for year-end Roth conversion and withdrawal planning, so worth hearing before December."
+    },
+    {
+      "date": "2026-11-18",
+      "rank": 2,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "From Poker Pro to Elite Hedge Fund Manager: David Orr on Investing, Risk and AI",
+      "match": "Poker Pro to Elite Hedge Fund",
+      "published": "2026-11-17",
+      "episode_url": "https://podcasts.apple.com/us/podcast/from-poker-pro-to-elite-hedge-fund-manager-david-orr/id1490296778",
+      "timely": false,
+      "why": "Jack Forehand talks with David Orr of Militia Capital about what professional poker taught him about probabilities and changing his mind, and why piling on more research often fails to improve a decision. He explains how he builds long and short theses while watching for exposures that several positions share, how AI has changed his research workflow, and why he worries about an oversupply of compute. They also cover opportunities in Japan and crowded shorts, and he closes with the case that broad index funds are the right answer for most individual investors. Mostly evergreen."
+    },
+    {
+      "date": "2026-11-19",
+      "rank": 1,
+      "show": "Animal Spirits",
+      "search": "Animal Spirits Podcast",
+      "title": "Talk Your Book: The Anthropic IPO",
+      "match": "The Anthropic IPO",
+      "published": "2026-11-16",
+      "episode_url": "https://podcasts.thecompoundnews.com/show/animalspirits/talk-your-book-the-anthropic-ipo/",
+      "timely": true,
+      "why": "A Talk Your Book episode, so the guest's firm is a paying sponsor: Michael Batnick and Ben Carlson talk with Derek Yan of KraneShares about investing in public and private AI companies and how to build an AI allocation. The most useful part is the walk through what matters in Anthropic's S-1 filing, followed by the case that robotics is the next stage of AI. Listen with the sponsorship in mind. Tied to the IPO, so worth hearing soon."
     }
   ]
 }
