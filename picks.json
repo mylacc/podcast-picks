@@ -661,6 +661,41 @@
       "episode_url": "https://podcasts.thecompoundnews.com/show/animalspirits/talk-your-book-the-anthropic-ipo/",
       "timely": true,
       "why": "A Talk Your Book episode, so the guest's firm is a paying sponsor: Michael Batnick and Ben Carlson talk with Derek Yan of KraneShares about investing in public and private AI companies and how to build an AI allocation. The most useful part is the walk through what matters in Anthropic's S-1 filing, followed by the case that robotics is the next stage of AI. Listen with the sponsorship in mind. Tied to the IPO, so worth hearing soon."
+    },
+    {
+      "date": "2026-11-20",
+      "rank": 1,
+      "show": "Odd Lots",
+      "search": "Odd Lots Bloomberg",
+      "title": "This Is The Problem With AI's Most Bullish Chart",
+      "match": "Problem With AI's Most Bullish Chart",
+      "published": "2026-11-19",
+      "timely": true,
+      "why": "Stanley Lee of Liquid Compute argues that rising GPU rental rates partly reflect tightening credit, not just booming demand: lenders have cut loan-to-value from about 70% this summer to 50 to 60% now and are steering clear of newer neoclouds, and some are asking about put options on rental rates as a stand-in for Nvidia's backstop. Paul Kedrosky argues the buildout needs trillions in yearly revenue that only coding is close to delivering, calls Nvidia's customer financing circular, and says IPO oversubscription numbers mean little. Useful for anyone with AI-heavy index funds. Timely, so worth hearing soon."
+    },
+    {
+      "date": "2026-11-20",
+      "rank": 2,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "Who Pays for the AI Buildout? Two Bond Investors Take Us Inside the Debt Market",
+      "match": "Who Pays for the AI Buildout",
+      "published": "2026-11-19",
+      "episode_url": "https://podcasts.apple.com/us/podcast/who-pays-for-the-ai-buildout-two-bond-investors-take/id1490296778",
+      "timely": true,
+      "why": "Two F/m Investments bond managers follow the AI money into credit. Wider spreads and pricier default swaps on big tech borrowers mean ordinary aggregate bond funds now carry more AI exposure than many holders realize, and if lenders balk, shareholders end up paying through new stock issuance. There is also a segment on short-duration TIPS and how rate risk can swamp inflation protection in a TIPS fund, something individual bonds held to maturity avoid. Timely, so worth hearing soon."
+    },
+    {
+      "date": "2026-11-20",
+      "rank": 3,
+      "show": "Stay Wealthy Retirement Show",
+      "itunes_id": 1260181429,
+      "title": "Nvidia's 35% Drop and the Risk Retirees Aren't Paid to Take",
+      "match": "Nvidia s 35 Drop and the Risk Retirees",
+      "published": "2026-11-19",
+      "episode_url": "https://youstaywealthy.com/podcasts/nvidia-investment-risk-retirement/",
+      "timely": false,
+      "why": "Taylor Schulte argues that company-specific risk isn't reliably rewarded, and with Nvidia at about 6% of the S&P 500 it sits in every broad fund. Four popular funds covering about 4,000 companies still put roughly 40% in about 10 names. The Magnificent 7 were expected to grow earnings about 55% in 2026 yet gained about 3% through mid-November, versus 13% for the other 493. Some value indexes held stocks up 300% to 800% this year, so read the holdings, not the label. Evergreen with a timely hook."
     }
   ]
 }
