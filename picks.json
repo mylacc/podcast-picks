@@ -696,6 +696,29 @@
       "episode_url": "https://youstaywealthy.com/podcasts/nvidia-investment-risk-retirement/",
       "timely": false,
       "why": "Taylor Schulte argues that company-specific risk isn't reliably rewarded, and with Nvidia at about 6% of the S&P 500 it sits in every broad fund. Four popular funds covering about 4,000 companies still put roughly 40% in about 10 names. The Magnificent 7 were expected to grow earnings about 55% in 2026 yet gained about 3% through mid-November, versus 13% for the other 493. Some value indexes held stocks up 300% to 800% this year, so read the holdings, not the label. Evergreen with a timely hook."
+    },
+    {
+      "date": "2026-11-21",
+      "rank": 1,
+      "show": "Excess Returns",
+      "itunes_id": 1490296778,
+      "title": "The Fed Is Hiking. Earnings Growth Is Slowing. Is This 2018 Again? | Barry Knapp",
+      "match": "Is This 2018 Again",
+      "published": "2026-11-18",
+      "episode_url": "https://excessreturnspod.substack.com/p/full-transcript-barry-knapp-on-the",
+      "timely": true,
+      "why": "Barry Knapp argues the Fed is hiking just as AI capex and earnings growth peak, which makes 2018 his closest analog, and warns of a possible 10% to 12% drop by year end; he is holding cash and has cut tech to about half of market weight. He sees trend inflation at 2.5% to 2.75% rather than 2%, calls inflation mostly a fiscal problem the Fed is misreading, notes the 10-year term premium is about 65 basis points versus about 125 before 2008, and ties a 50 basis point jump in 10-year TIPS yields to the AI capex peak. The counterpoint: he still sees roughly 12.5% trend earnings growth if capex spreads beyond AI. Timely, so worth hearing soon."
+    },
+    {
+      "date": "2026-11-21",
+      "rank": 2,
+      "show": "Odd Lots",
+      "search": "Odd Lots Bloomberg",
+      "title": "How AI Is Forcing China to Reshape Industrial Policy",
+      "match": "Industrial Policy",
+      "published": "2026-11-21",
+      "timely": true,
+      "why": "Kyle Chan of Brookings explains how Beijing is adapting its industrial policy to the AI boom, where Chinese companies' goals clash with state plans, and how Huawei competes with Nvidia. The most useful thread for investors is why China's tech wins haven't turned into strong stock returns: a country or sector can win the technology race and still pay shareholders poorly. Timely, so worth hearing soon."
     }
   ]
 }
