@@ -7,9 +7,12 @@ name: Video candidates
 
 on:
   schedule:
-    # Before the 6:27am New York digest in both EDT and EST; two runs in case one is delayed
-    - cron: "30 9 * * *"
-    - cron: "5 10 * * *"
+    # The digest reads this at 6:27am New York (10:27 UTC in EDT, 11:27 UTC in EST).
+    # GitHub has started these runs 6 to 10 hours late, so a single morning run
+    # landed in the afternoon and the digest read the previous day's list. Four
+    # runs spread through the night keep a recent one in place by 6:27am; each
+    # run replaces the last.
+    - cron: "17 20,23,2,5 * * *"
   workflow_dispatch:
   push:
     branches: [main]
