@@ -201,7 +201,7 @@ def ep_title(p):
 
 def ep_link(p):
     r = p.get("resolved")
-    return (r["link"] if r and r["link"].startswith("https://") else "") or p["episode_url"]
+    return (r["link"] if r and r["link"].startswith("https://") else "") or p.get("episode_url", "")
 
 
 def source_links(p):
