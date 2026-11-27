@@ -825,6 +825,29 @@
       "timely": false,
       "why": "JL Collins, author of The Simple Path to Wealth, joins his daughter Jessica, who reached financial independence at 32 by following the advice he first wrote for her, then left a job she disliked. JL calls the 4% rule extraordinarily conservative and argues that broad stock index funds are themselves a hedge against inflation; he also explains why he now holds some Vanguard Total World Stock alongside his US index fund. Jessica describes planning her finances without counting on Social Security at all. A good listen on how the simple-path approach holds up across two generations. Evergreen.",
       "episode_url": "https://www.morningstar.com/podcasts/the-long-view/jl-jessica-collins-she-followed-her-dads-investing-advice-then-quit-job-she-hated"
+    },
+    {
+      "date": "2026-11-27",
+      "rank": 1,
+      "show": "Rational Reminder",
+      "search": "Rational Reminder",
+      "title": "Is CAPE Overstating US Stock Valuations? (Ben Marshall) | #437",
+      "match": "Is CAPE Overstating",
+      "published": "2026-11-26",
+      "timely": false,
+      "why": "Ben Marshall of Massey University explains how to estimate ten-year expected stock returns from yield, growth and valuation, and why the valuation piece, measured by the CAPE ratio, does most of the work. He then shows a flaw in the standard Shiller CAPE: it weights stocks by earnings rather than market value, and its ten years of earnings include companies that have since left the index. His fix, a component CAPE that value-weights each stock's own ratio, forecasts ten-year returns noticeably better out of sample and reads US stocks as expensive but less extreme than the headline number suggests. The hosts also test Harry Browne's permanent portfolio (equal parts stocks, bonds, gold and cash) out of sample and ask how much a long-term investor should care about the Sharpe ratio. Useful for anyone who sets return assumptions from CAPE. Evergreen.",
+      "episode_url": "https://rationalreminder.ca/podcast/437"
+    },
+    {
+      "date": "2026-11-27",
+      "rank": 2,
+      "show": "Odd Lots",
+      "search": "Odd Lots Bloomberg",
+      "title": "Isabella Weber's Vision for an Affordability Agenda",
+      "match": "Isabella Weber",
+      "published": "2026-11-27",
+      "timely": true,
+      "why": "Economist Isabella Weber, known for her work on sellers' inflation, makes the case for fighting high living costs with targeted tools such as price caps and government action on food, housing and energy, rather than relying on interest rate hikes. She also argues that the consumer price index gives more weight to the spending of higher-income households than to everyone else. A heterodox view that is worth hearing out even if unconvinced, especially with affordability at the center of current policy debates. Timely, so worth hearing soon."
     }
   ]
 }
